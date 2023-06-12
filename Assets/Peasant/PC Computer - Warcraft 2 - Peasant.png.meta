@@ -1,0 +1,2494 @@
+fileFormatVersion: 2
+guid: c7e8b1034ccbbcb4581a8c7f89ff96c6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 921
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99d9c445d997764489dd0668ebadbf5
+      internalID: -791738576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 920
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bc85edbbb5c7145be88dc43cac23ce
+      internalID: -1213908470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 917
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172189a92880bf742b548486854383d5
+      internalID: -1892336555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 918
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb01751328605d43b93464a9358c4d9
+      internalID: 132037315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 919
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c7c8f04d8b27443bc8fe63dcff0d17
+      internalID: -1399416827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 878
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55711037d28c164f8fa4219d05d1f80
+      internalID: 772577083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 878
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daa2176700dee743b986b1d1a3e1b8b
+      internalID: -276026861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 880
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ef35f7809c59f46a610adadb83f60c
+      internalID: 788721001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 885
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ec9a78d29e0e34a940e95176dd24d0
+      internalID: 396694233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 881
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f099363280784b64897884afcb64e005
+      internalID: -342059049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 840
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc07dea84e2795248ae9c3f6c86e1d3c
+      internalID: 902261692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 839
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e05dff5ec6cc54fa056339d46e0476
+      internalID: -1625776022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 839
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879f9d6c9b23b914584b36e2884358f3
+      internalID: 662947968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 844
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16a1fb758de584459b4984398f9c800
+      internalID: 1542639372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 840
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae621cde8f70532498d44a2c22fde892
+      internalID: 735760061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_15
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 800
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e097054cc2cfe4a8bc8198592b7db7
+      internalID: -970104200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 804
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8d9def6fbfe6f4383e3a61b2176549
+      internalID: 587423088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 804
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea98a9ae67e9d34cb5a551f25623321
+      internalID: 676407305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_18
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 804
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8229c3d85b3b3479e50a01197499cb
+      internalID: 222378160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 805
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda790906de0f014a98ad864cbf0174f
+      internalID: -1308016204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_20
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 766
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514706cd5802a164486a8653a701e59f
+      internalID: -618952710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_21
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 768
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d0032dff3fdb244b8e90f3ea3a8f2f
+      internalID: 547723726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_22
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 767
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c406ae0872d33c42ac7600c55b0e045
+      internalID: 724780019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_23
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 768
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a08372c5d2fe444a18e844da17ae1d
+      internalID: 2033504087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_24
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 767
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06d70394fd0abc458d56012b9d993e1
+      internalID: -1317897065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_25
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 730
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e118a64c1b80f4e9fdf49d7722f125
+      internalID: -827645390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_26
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 731
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3776020d2de804eacffee4b55cc67d
+      internalID: -1486353540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 731
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d809435ca16edb4ebfd32fc4c59bea1
+      internalID: -746007511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 729
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929f5a401f9524644aeb37ef086cc77f
+      internalID: -2026449808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 732
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf06cfdd7284de4e949df5e7ec00c61
+      internalID: -389831776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 695
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65e15b462f74ab4c9ecddcab56d2816
+      internalID: 1658339278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 696
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d16dd93640ca642a6949a4980cd97b
+      internalID: -1512891309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_32
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 697
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6eea6e32400d1e43ab8bfbceebdd973
+      internalID: 2042633557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_33
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 695
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059a9b1199ba7ef4c9e5cc58888ca08d
+      internalID: -824841763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 699
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6233b42474fb490488e62d772e72fea5
+      internalID: 1651546779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_35
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 651
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfc2abcce546a9489d383ec61ccadf8
+      internalID: 210636420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_36
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 652
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa95b24315a870418bb652cdede5b4d
+      internalID: 2046949211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_37
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 652
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e12f834671a9740b41116a1a75c417
+      internalID: -1175884298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_38
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 650
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472345172be742948a06afae23e7161c
+      internalID: -1717475508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_39
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 654
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92694300d340dfb4f968341861574f38
+      internalID: -420211779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_40
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 607
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56712495d0c09ef43859b5963844a9d0
+      internalID: -52299472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_41
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 608
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6acc962dfd0d34da1465f282c2fd3a
+      internalID: 80948747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_42
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 609
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366f4adc0381af4439ec172410c677ba
+      internalID: 2097919097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_43
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 606
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08740df3f87cc641bf831604244d9b1
+      internalID: 155378644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_44
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 599
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680d136276817eb40a9b949d098f9089
+      internalID: 20588577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_45
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 560
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca96f9d0f6739a47bd4d6585feb0dc6
+      internalID: -1818205074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_46
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 561
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbc5b01adbaf7c42a19ae727b818e55
+      internalID: 1164908854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 561
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1597ee9a2660c2f4eb2244e8de4d24b8
+      internalID: -2120171004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_48
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 557
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc4d92f312261643814ce522fcc2ffb
+      internalID: -550013737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_49
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 562
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ddf0d9b2a6deb4f85db09d74aa666b
+      internalID: -237220832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_50
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 510
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219d13f3ec6203d4eb15a42a955ec2cc
+      internalID: 430247227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_51
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 516
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8207a52fc55fe174090e6a0447d02f57
+      internalID: -210478928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_52
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 507
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24942260f1a399e4298bacc5b13f63da
+      internalID: -681971476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_53
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 515
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d19a8a5c3cef342876f6a2b4b9d513
+      internalID: 1295289626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_54
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 517
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153c12f0591b5bc48bb76b05cbc28271
+      internalID: 2127404076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_55
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 471
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22dc58d7f81a2140a761906909c875d
+      internalID: 1370399431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_56
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 431
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5935c8a55bdf774d9e1124acb16ad9c
+      internalID: 235013106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_57
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 430
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9966d0a7595593e468a48be68ca68a0f
+      internalID: 1054574294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_58
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 430
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e434729ed0f054892eda6390a69188
+      internalID: 990117493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_59
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 430
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851bd3f0f1439f24d9b46a382d5fbf8c
+      internalID: 381112380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_60
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 431
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4147607b33434d741acf784c70e684e4
+      internalID: -1342408475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_61
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 386
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a3c203754989d48bdc6075d764da88
+      internalID: 1129823335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_62
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 385
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2074fc56f4493634792e63ced69f49cf
+      internalID: 596303587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 388
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd159e968865c441825a0f01eb11d90
+      internalID: 2033672024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_64
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 390
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35765b21a47d60448b104557eb62abcf
+      internalID: 138394451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 389
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8594af70174d8764a8c5c031d1968fda
+      internalID: -1578630162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_66
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 345
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde80da4901fcca47b05146a9fb96701
+      internalID: -150746910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_67
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 344
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c52a0c406a00e4abc32e34c8de5ae9
+      internalID: 1116483398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 345
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62197f22293773a43a45e76f028b586f
+      internalID: 1438534275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_69
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 344
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c710f5327d735949b5389d53f4f5b43
+      internalID: 1695987214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 345
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87f31c1a5bfd364f9acc756697f4bd6
+      internalID: -715595900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_71
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 299
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca1489ca379c654fa0b7021cf4ceec8
+      internalID: -2071650951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_72
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 303
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a893d8471d52f0b45b502fe4f5bfb36c
+      internalID: 14879429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_73
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 302
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e316a10281c1c48bd20bca2f47ff34
+      internalID: 1253317889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 301
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6836d048a286e49a1aa02e30b33b8f
+      internalID: -1949925817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_75
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 303
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5c29440a03c874e9d7e2a47d2e897a
+      internalID: -1750751965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_76
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 258
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3905c5929d9504e4ea47bee104fab4cf
+      internalID: -1392290088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_77
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 260
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a6daeb5423bb34e868c0c062091341
+      internalID: 757416520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_78
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 260
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bcdf4593aa3a646a579a7d77f8f576
+      internalID: -552313134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_79
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 258
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7ee31a5731e5647a846d45384bfacb
+      internalID: -1021263727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_80
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 259
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2a2411d726dca47902563e4e50632e
+      internalID: -1682238193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_81
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 223
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ba8c4c63451084487cac21de0315bb
+      internalID: -768008060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_82
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 222
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcadc6b17e3ad649bba88f3e241a688
+      internalID: -53791985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_83
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 216
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b6ef2e4b8a1e44db1e55038ab33917
+      internalID: -883764320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_84
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 220
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e502d6eb07a39254581b18eb288b80d8
+      internalID: -2066914947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_85
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 221
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6860fd5132157340b9e3671e0566c02
+      internalID: 1649070219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_86
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 172
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1d338f1341d1640b0e9c7b00888adf
+      internalID: 1254816017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_87
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 172
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcdeb863cc1e14458e0b9669816c68a
+      internalID: -1068228114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_88
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 172
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786df16f98c002c4092518a709353932
+      internalID: -808367006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_89
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 177
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3697235c8c84abd43bad624741fb5ccf
+      internalID: 756628324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_90
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 175
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06faef4ab90b3047b513c4c965fac22
+      internalID: -1872774359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_91
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 131
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a45e818eca5f242a4794434affc6b6
+      internalID: -1729113831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_92
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 130
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de218b348aae9d41aa9bd0e5f78582c
+      internalID: 1883198917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_93
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 127
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d96e6cd7a3462f498ddc22c9d6af103
+      internalID: 487909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_94
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 134
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac80c90c8c90314db932d403d9af8c8
+      internalID: -1217829422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_95
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 131
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaff742df723fbc44aafcb6f32d78aca
+      internalID: -1281221158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 86
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d96b05069669d46801932c18602953
+      internalID: 1557736573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_97
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 90
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de63632d16b1ff442bfb9f2b9ff33565
+      internalID: 2032447691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_98
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 87
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee67343eac1ab841b9971bb32565b9f
+      internalID: -1444450442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_99
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 90
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899f2d1a6d756e441b0473aad0aa3caf
+      internalID: -409741450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_100
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 91
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8f713d02e629d49ad7b5937ec8bd20
+      internalID: -1621872806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_101
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 48
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249cdcfc979d66f47abf00bcc800292d
+      internalID: -91763988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_102
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 50
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee744c6d425bce24abf738267aa858ec
+      internalID: 712227287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_103
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 46
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b790a1dd3e96c349b7a38b7835a0bb4
+      internalID: 1552533438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_104
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 50
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5a44b82f649d94e9640cc23cae7363
+      internalID: 1508199267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_105
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 49
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cf9743c8c6c4746b0ec87ac1199721
+      internalID: 1976903770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Peasant_106
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 6
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b0d51af5bc052499ae09e718bddda4
+      internalID: -1604395149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Warcraft 2 - Peasant_0: -791738576
+      PC Computer - Warcraft 2 - Peasant_1: -1213908470
+      PC Computer - Warcraft 2 - Peasant_10: 902261692
+      PC Computer - Warcraft 2 - Peasant_100: -1621872806
+      PC Computer - Warcraft 2 - Peasant_101: -91763988
+      PC Computer - Warcraft 2 - Peasant_102: 712227287
+      PC Computer - Warcraft 2 - Peasant_103: 1552533438
+      PC Computer - Warcraft 2 - Peasant_104: 1508199267
+      PC Computer - Warcraft 2 - Peasant_105: 1976903770
+      PC Computer - Warcraft 2 - Peasant_106: -1604395149
+      PC Computer - Warcraft 2 - Peasant_11: -1625776022
+      PC Computer - Warcraft 2 - Peasant_12: 662947968
+      PC Computer - Warcraft 2 - Peasant_13: 1542639372
+      PC Computer - Warcraft 2 - Peasant_14: 735760061
+      PC Computer - Warcraft 2 - Peasant_15: -970104200
+      PC Computer - Warcraft 2 - Peasant_16: 587423088
+      PC Computer - Warcraft 2 - Peasant_17: 676407305
+      PC Computer - Warcraft 2 - Peasant_18: 222378160
+      PC Computer - Warcraft 2 - Peasant_19: -1308016204
+      PC Computer - Warcraft 2 - Peasant_2: -1892336555
+      PC Computer - Warcraft 2 - Peasant_20: -618952710
+      PC Computer - Warcraft 2 - Peasant_21: 547723726
+      PC Computer - Warcraft 2 - Peasant_22: 724780019
+      PC Computer - Warcraft 2 - Peasant_23: 2033504087
+      PC Computer - Warcraft 2 - Peasant_24: -1317897065
+      PC Computer - Warcraft 2 - Peasant_25: -827645390
+      PC Computer - Warcraft 2 - Peasant_26: -1486353540
+      PC Computer - Warcraft 2 - Peasant_27: -746007511
+      PC Computer - Warcraft 2 - Peasant_28: -2026449808
+      PC Computer - Warcraft 2 - Peasant_29: -389831776
+      PC Computer - Warcraft 2 - Peasant_3: 132037315
+      PC Computer - Warcraft 2 - Peasant_30: 1658339278
+      PC Computer - Warcraft 2 - Peasant_31: -1512891309
+      PC Computer - Warcraft 2 - Peasant_32: 2042633557
+      PC Computer - Warcraft 2 - Peasant_33: -824841763
+      PC Computer - Warcraft 2 - Peasant_34: 1651546779
+      PC Computer - Warcraft 2 - Peasant_35: 210636420
+      PC Computer - Warcraft 2 - Peasant_36: 2046949211
+      PC Computer - Warcraft 2 - Peasant_37: -1175884298
+      PC Computer - Warcraft 2 - Peasant_38: -1717475508
+      PC Computer - Warcraft 2 - Peasant_39: -420211779
+      PC Computer - Warcraft 2 - Peasant_4: -1399416827
+      PC Computer - Warcraft 2 - Peasant_40: -52299472
+      PC Computer - Warcraft 2 - Peasant_41: 80948747
+      PC Computer - Warcraft 2 - Peasant_42: 2097919097
+      PC Computer - Warcraft 2 - Peasant_43: 155378644
+      PC Computer - Warcraft 2 - Peasant_44: 20588577
+      PC Computer - Warcraft 2 - Peasant_45: -1818205074
+      PC Computer - Warcraft 2 - Peasant_46: 1164908854
+      PC Computer - Warcraft 2 - Peasant_47: -2120171004
+      PC Computer - Warcraft 2 - Peasant_48: -550013737
+      PC Computer - Warcraft 2 - Peasant_49: -237220832
+      PC Computer - Warcraft 2 - Peasant_5: 772577083
+      PC Computer - Warcraft 2 - Peasant_50: 430247227
+      PC Computer - Warcraft 2 - Peasant_51: -210478928
+      PC Computer - Warcraft 2 - Peasant_52: -681971476
+      PC Computer - Warcraft 2 - Peasant_53: 1295289626
+      PC Computer - Warcraft 2 - Peasant_54: 2127404076
+      PC Computer - Warcraft 2 - Peasant_55: 1370399431
+      PC Computer - Warcraft 2 - Peasant_56: 235013106
+      PC Computer - Warcraft 2 - Peasant_57: 1054574294
+      PC Computer - Warcraft 2 - Peasant_58: 990117493
+      PC Computer - Warcraft 2 - Peasant_59: 381112380
+      PC Computer - Warcraft 2 - Peasant_6: -276026861
+      PC Computer - Warcraft 2 - Peasant_60: -1342408475
+      PC Computer - Warcraft 2 - Peasant_61: 1129823335
+      PC Computer - Warcraft 2 - Peasant_62: 596303587
+      PC Computer - Warcraft 2 - Peasant_63: 2033672024
+      PC Computer - Warcraft 2 - Peasant_64: 138394451
+      PC Computer - Warcraft 2 - Peasant_65: -1578630162
+      PC Computer - Warcraft 2 - Peasant_66: -150746910
+      PC Computer - Warcraft 2 - Peasant_67: 1116483398
+      PC Computer - Warcraft 2 - Peasant_68: 1438534275
+      PC Computer - Warcraft 2 - Peasant_69: 1695987214
+      PC Computer - Warcraft 2 - Peasant_7: 788721001
+      PC Computer - Warcraft 2 - Peasant_70: -715595900
+      PC Computer - Warcraft 2 - Peasant_71: -2071650951
+      PC Computer - Warcraft 2 - Peasant_72: 14879429
+      PC Computer - Warcraft 2 - Peasant_73: 1253317889
+      PC Computer - Warcraft 2 - Peasant_74: -1949925817
+      PC Computer - Warcraft 2 - Peasant_75: -1750751965
+      PC Computer - Warcraft 2 - Peasant_76: -1392290088
+      PC Computer - Warcraft 2 - Peasant_77: 757416520
+      PC Computer - Warcraft 2 - Peasant_78: -552313134
+      PC Computer - Warcraft 2 - Peasant_79: -1021263727
+      PC Computer - Warcraft 2 - Peasant_8: 396694233
+      PC Computer - Warcraft 2 - Peasant_80: -1682238193
+      PC Computer - Warcraft 2 - Peasant_81: -768008060
+      PC Computer - Warcraft 2 - Peasant_82: -53791985
+      PC Computer - Warcraft 2 - Peasant_83: -883764320
+      PC Computer - Warcraft 2 - Peasant_84: -2066914947
+      PC Computer - Warcraft 2 - Peasant_85: 1649070219
+      PC Computer - Warcraft 2 - Peasant_86: 1254816017
+      PC Computer - Warcraft 2 - Peasant_87: -1068228114
+      PC Computer - Warcraft 2 - Peasant_88: -808367006
+      PC Computer - Warcraft 2 - Peasant_89: 756628324
+      PC Computer - Warcraft 2 - Peasant_9: -342059049
+      PC Computer - Warcraft 2 - Peasant_90: -1872774359
+      PC Computer - Warcraft 2 - Peasant_91: -1729113831
+      PC Computer - Warcraft 2 - Peasant_92: 1883198917
+      PC Computer - Warcraft 2 - Peasant_93: 487909
+      PC Computer - Warcraft 2 - Peasant_94: -1217829422
+      PC Computer - Warcraft 2 - Peasant_95: -1281221158
+      PC Computer - Warcraft 2 - Peasant_96: 1557736573
+      PC Computer - Warcraft 2 - Peasant_97: 2032447691
+      PC Computer - Warcraft 2 - Peasant_98: -1444450442
+      PC Computer - Warcraft 2 - Peasant_99: -409741450
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

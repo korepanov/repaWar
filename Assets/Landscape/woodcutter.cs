@@ -6,16 +6,25 @@ using UnityEngine;
 public class WoodcutterClass : MonoBehaviour
 {
     public GameObject WoodcutterPattern;
+    public GameObject WoodcutterRight;
+    public GameObject WoodcutterLeft;
+    public GameObject WoodcutterDown;
+    public GameObject WoodcutterUp;
+    public GameObject WoodcutterUpLeft;
+    public GameObject WoodcutterUpRight;
+    public GameObject WoodcutterDownLeft;
+    public GameObject WoodcutterDownRight;
     public GameObject HighlightPattern;
+    public string ObjName; 
 
-    private int WoodCutterX;
-    private int WoodCutterY;
+    private float WoodCutterX;
+    private float WoodCutterY;
 
     List<List<GameObject>> tile_grid = new List<List<GameObject>>();
 
     // Start is called before the first frame update
     
-    public void Setup(int x, int y){
+    public void Setup(float x, float y){
     	WoodCutterX = x;
 	    WoodCutterY = y;
     }	
