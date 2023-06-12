@@ -16,6 +16,7 @@ public class WoodcutterClass : MonoBehaviour
     public GameObject WoodcutterDownRight;
     public GameObject HighlightPattern;
     public string ObjName; 
+    private GameObject skin;
 
     private float WoodCutterX;
     private float WoodCutterY;
@@ -28,6 +29,14 @@ public class WoodcutterClass : MonoBehaviour
     	WoodCutterX = x;
 	    WoodCutterY = y;
     }	
+
+    public GameObject GetSkin(){
+        return skin;
+    }
+
+    public void SetSkin(GameObject pattern){
+        skin = pattern; 
+    }
 
     public Vector3 GetCoord(){
     	return new Vector3(WoodCutterX, WoodCutterY, 0);

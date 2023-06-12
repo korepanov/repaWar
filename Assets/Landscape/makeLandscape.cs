@@ -153,6 +153,8 @@ public class Landscape : MonoBehaviour
 
     public void SpawnWoodcutter(WoodcutterClass woodcutter){
 
+        woodcutter.SetSkin(woodcutter.WoodcutterPattern);
+
         int x;
         int y; 
 
@@ -169,10 +171,36 @@ public class Landscape : MonoBehaviour
  	
     }
 
+    public void setPattern(WoodcutterClass woodcutter, GameObject pattern){
+
+        if (pattern != woodcutter.GetSkin()){
+            float x;
+            float y; 
+
+            x = woodcutter.GetCoord().x;
+            y = woodcutter.GetCoord().y;
+
+            DestroyWoodcutter(woodcutter);
+
+            GameObject local_tile_group = new GameObject(woodcutter.ObjName);
+
+            local_tile_group.transform.parent = gameObject.transform;
+            local_tile_group.transform.localPosition = new Vector3(0, 0, 0);
+            GameObject tile = Instantiate(pattern, local_tile_group.transform);
+
+            tile.name = string.Format("tile_x{0}_y{1}", (int)x, (int)y);
+            tile.transform.localPosition = new Vector3(x, y, 0);
+
+            woodcutter.SetSkin(pattern); 
+        }
+        
+    }
+
 
     public void Move(WoodcutterClass woodcutter, float x, float y){
         if (x - 1 < woodcutter.GetCoord().x && woodcutter.GetCoord().x < x + 1 && y - 1 < woodcutter.GetCoord().y && woodcutter.GetCoord().y < y + 1){
             toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
         }else if (x < woodcutter.GetCoord().x && y - 1 < woodcutter.GetCoord().y && woodcutter.GetCoord().y < y + 1){
             MoveLeft(woodcutter);
         }else if (x > woodcutter.GetCoord().x && y - 1 < woodcutter.GetCoord().y && woodcutter.GetCoord().y < y + 1){
@@ -195,250 +223,195 @@ public class Landscape : MonoBehaviour
 
     public void MoveRight(WoodcutterClass woodcutter){
 
-        DestroyHighlight(woodcutter);
-        DestroyWoodcutter(woodcutter);  
+        setPattern(woodcutter, woodcutter.WoodcutterRight); 
 
         float x;
         float y;
 
         x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y; 
+        y = woodcutter.GetCoord().y;
 
-        GameObject local_tile_group = new GameObject(woodcutter.ObjName);
-            local_tile_group.transform.parent = gameObject.transform;
-            local_tile_group.transform.localPosition = new Vector3(0, 0, 0);
-            GameObject tile = Instantiate(woodcutter.WoodcutterRight, local_tile_group.transform);
+        GameObject tile = GameObject.Find(woodcutter.ObjName);
 
-        tile.name = string.Format("tile_x{0}_y{1}", x, y);
-        tile.transform.localPosition = new Vector3(x + 0.1f, y, 0);
+        var delta = Time.deltaTime;
 
-        woodcutter.Setup(x + 0.1f, y); 
+        tile.transform.Translate(Vector3.right * 2 * delta);
 
-        // make highlight without condition
-        GameObject local_tile_groupH = new GameObject(woodcutter.ObjName + "Highlight");
-                local_tile_groupH.transform.parent = gameObject.transform;
-                local_tile_groupH.transform.localPosition = new Vector3(0, 0, 0);
-                GameObject tileH = Instantiate(woodcutter.HighlightPattern, local_tile_group.transform);
-
-            tileH.name = string.Format("tile_x{0}_y{1}", x + 0.1f, y);
-                tileH.transform.localPosition = new Vector3(x + 0.1f, y - 0.2f, 0); 
+        
+        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+        if (null != tile){
+            tile.transform.Translate(Vector3.right * 2 * delta);
+        }
+        woodcutter.Setup(x + 2 * delta, y); 
+        
     }
 
     public void MoveLeft(WoodcutterClass woodcutter){
 
-        DestroyHighlight(woodcutter);
-        DestroyWoodcutter(woodcutter);  
+        setPattern(woodcutter, woodcutter.WoodcutterLeft); 
 
         float x;
         float y;
 
         x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y; 
+        y = woodcutter.GetCoord().y;
 
-        GameObject local_tile_group = new GameObject(woodcutter.ObjName);
-            local_tile_group.transform.parent = gameObject.transform;
-            local_tile_group.transform.localPosition = new Vector3(0, 0, 0);
-            GameObject tile = Instantiate(woodcutter.WoodcutterLeft, local_tile_group.transform);
+        GameObject tile = GameObject.Find(woodcutter.ObjName);
 
-        tile.name = string.Format("tile_x{0}_y{1}", x, y);
-        tile.transform.localPosition = new Vector3(x - 0.1f, y, 0);
+        var delta = Time.deltaTime;
 
-        woodcutter.Setup(x - 0.1f, y); 
+        tile.transform.Translate(Vector3.left * 2 * delta);
 
-        // make highlight without condition
-        GameObject local_tile_groupH = new GameObject(woodcutter.ObjName + "Highlight");
-                local_tile_groupH.transform.parent = gameObject.transform;
-                local_tile_groupH.transform.localPosition = new Vector3(0, 0, 0);
-                GameObject tileH = Instantiate(woodcutter.HighlightPattern, local_tile_group.transform);
-
-            tileH.name = string.Format("tile_x{0}_y{1}", x - 0.1f, y);
-                tileH.transform.localPosition = new Vector3(x - 0.1f, y - 0.2f, 0); 
+        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+        if (null != tile){
+            tile.transform.Translate(Vector3.left * 2 * delta);
+        }
+        woodcutter.Setup(x - 2 * delta, y);
     }
 
     public void MoveUp(WoodcutterClass woodcutter){
 
-        DestroyHighlight(woodcutter);
-        DestroyWoodcutter(woodcutter);  
+        setPattern(woodcutter, woodcutter.WoodcutterUp); 
 
         float x;
         float y;
 
         x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y; 
+        y = woodcutter.GetCoord().y;
 
-        GameObject local_tile_group = new GameObject(woodcutter.ObjName);
-            local_tile_group.transform.parent = gameObject.transform;
-            local_tile_group.transform.localPosition = new Vector3(0, 0, 0);
-            GameObject tile = Instantiate(woodcutter.WoodcutterUp, local_tile_group.transform);
+        GameObject tile = GameObject.Find(woodcutter.ObjName);
 
-        tile.name = string.Format("tile_x{0}_y{1}", x, y + 0.1f);
-        tile.transform.localPosition = new Vector3(x, y + 0.1f, 0);
+        var delta = Time.deltaTime;
 
-        woodcutter.Setup(x, y + 0.1f); 
+        tile.transform.Translate(Vector3.up * 2 * delta);
 
-        // make highlight without condition
-        GameObject local_tile_groupH = new GameObject(woodcutter.ObjName + "Highlight");
-                local_tile_groupH.transform.parent = gameObject.transform;
-                local_tile_groupH.transform.localPosition = new Vector3(0, 0, 0);
-                GameObject tileH = Instantiate(woodcutter.HighlightPattern, local_tile_group.transform);
+        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+        if (null != tile){
+            tile.transform.Translate(Vector3.up * 2 * delta);
+        }
 
-            tileH.name = string.Format("tile_x{0}_y{1}", x, y + 0.1f);
-                tileH.transform.localPosition = new Vector3(x, y - 0.1f, 0); 
+        woodcutter.Setup(x, y + 2 * delta);
     }
 
     public void MoveDown(WoodcutterClass woodcutter){
 
-        DestroyHighlight(woodcutter);
-        DestroyWoodcutter(woodcutter);  
+       setPattern(woodcutter, woodcutter.WoodcutterDown); 
 
         float x;
         float y;
 
         x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y; 
+        y = woodcutter.GetCoord().y;
 
-        GameObject local_tile_group = new GameObject(woodcutter.ObjName);
-            local_tile_group.transform.parent = gameObject.transform;
-            local_tile_group.transform.localPosition = new Vector3(0, 0, 0);
-            GameObject tile = Instantiate(woodcutter.WoodcutterDown, local_tile_group.transform);
+        GameObject tile = GameObject.Find(woodcutter.ObjName);
 
-        tile.name = string.Format("tile_x{0}_y{1}", x, y);
-        tile.transform.localPosition = new Vector3(x, y - 0.1f, 0);
+        var delta = Time.deltaTime;
 
-        woodcutter.Setup(x, y - 0.1f); 
+        tile.transform.Translate(Vector3.down * 2 * delta);
 
-        // make highlight without condition
-        GameObject local_tile_groupH = new GameObject(woodcutter.ObjName + "Highlight");
-                local_tile_groupH.transform.parent = gameObject.transform;
-                local_tile_groupH.transform.localPosition = new Vector3(0, 0, 0);
-                GameObject tileH = Instantiate(woodcutter.HighlightPattern, local_tile_group.transform);
+        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
 
-            tileH.name = string.Format("tile_x{0}_y{1}", x, y - 0.1f);
-                tileH.transform.localPosition = new Vector3(x, y - 0.3f, 0); 
+        if (null != tile){
+            tile.transform.Translate(Vector3.down * 2 * delta);
+        }
+
+        woodcutter.Setup(x, y - 2 * delta);
     }
 
     public void MoveUpLeft(WoodcutterClass woodcutter){
 
-        DestroyHighlight(woodcutter);
-        DestroyWoodcutter(woodcutter);  
+        setPattern(woodcutter, woodcutter.WoodcutterUpLeft); 
 
         float x;
         float y;
 
         x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y; 
+        y = woodcutter.GetCoord().y;
 
-        GameObject local_tile_group = new GameObject(woodcutter.ObjName);
-            local_tile_group.transform.parent = gameObject.transform;
-            local_tile_group.transform.localPosition = new Vector3(0, 0, 0);
-            GameObject tile = Instantiate(woodcutter.WoodcutterUpLeft, local_tile_group.transform);
+        GameObject tile = GameObject.Find(woodcutter.ObjName);
 
-        tile.name = string.Format("tile_x{0}_y{1}", x, y);
-        tile.transform.localPosition = new Vector3(x - 0.1f, y + 0.1f, 0);
+        var delta = Time.deltaTime;
 
-        woodcutter.Setup(x - 0.1f, y + 0.1f); 
+        tile.transform.Translate(new Vector3(-1, 1, 0) * 2 * delta);
 
-        // make highlight without condition
-        GameObject local_tile_groupH = new GameObject(woodcutter.ObjName + "Highlight");
-                local_tile_groupH.transform.parent = gameObject.transform;
-                local_tile_groupH.transform.localPosition = new Vector3(0, 0, 0);
-                GameObject tileH = Instantiate(woodcutter.HighlightPattern, local_tile_group.transform);
-
-            tileH.name = string.Format("tile_x{0}_y{1}", x - 0.1f, y + 0.1f);
-                tileH.transform.localPosition = new Vector3(x - 0.1f, y - 0.1f, 0); 
+        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+        if (null != tile){
+            tile.transform.Translate(new Vector3(-1, 1, 0) * 2 * delta);
+        }
+        woodcutter.Setup(x - 2 * delta, y + 2 * delta);
     }
 
     public void MoveUpRight(WoodcutterClass woodcutter){
 
-        DestroyHighlight(woodcutter);
-        DestroyWoodcutter(woodcutter);  
+        setPattern(woodcutter, woodcutter.WoodcutterUpRight); 
 
         float x;
         float y;
 
         x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y; 
+        y = woodcutter.GetCoord().y;
 
-        GameObject local_tile_group = new GameObject(woodcutter.ObjName);
-            local_tile_group.transform.parent = gameObject.transform;
-            local_tile_group.transform.localPosition = new Vector3(0, 0, 0);
-            GameObject tile = Instantiate(woodcutter.WoodcutterUpRight, local_tile_group.transform);
+        GameObject tile = GameObject.Find(woodcutter.ObjName);
 
-        tile.name = string.Format("tile_x{0}_y{1}", x, y);
-        tile.transform.localPosition = new Vector3(x + 0.1f, y + 0.1f, 0);
+        var delta = Time.deltaTime;
 
-        woodcutter.Setup(x + 0.1f, y + 0.1f); 
+        tile.transform.Translate(new Vector3(1, 1, 0) * 2 * delta);
 
-        // make highlight without condition
-        GameObject local_tile_groupH = new GameObject(woodcutter.ObjName + "Highlight");
-                local_tile_groupH.transform.parent = gameObject.transform;
-                local_tile_groupH.transform.localPosition = new Vector3(0, 0, 0);
-                GameObject tileH = Instantiate(woodcutter.HighlightPattern, local_tile_group.transform);
-
-            tileH.name = string.Format("tile_x{0}_y{1}", x + 0.1f, y + 0.1f);
-                tileH.transform.localPosition = new Vector3(x + 0.1f, y - 0.1f, 0); 
+        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+        if (null != tile){
+            tile.transform.Translate(new Vector3(1, 1, 0) * 2 * delta);
+        }
+        woodcutter.Setup(x + 2 * delta, y + 2 * delta); 
     }
 
     public void MoveDownLeft(WoodcutterClass woodcutter){
 
-        DestroyHighlight(woodcutter);
-        DestroyWoodcutter(woodcutter);  
+        setPattern(woodcutter, woodcutter.WoodcutterDownLeft); 
 
         float x;
         float y;
 
         x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y; 
+        y = woodcutter.GetCoord().y;
 
-        GameObject local_tile_group = new GameObject(woodcutter.ObjName);
-            local_tile_group.transform.parent = gameObject.transform;
-            local_tile_group.transform.localPosition = new Vector3(0, 0, 0);
-            GameObject tile = Instantiate(woodcutter.WoodcutterDownLeft, local_tile_group.transform);
+        GameObject tile = GameObject.Find(woodcutter.ObjName);
 
-        tile.name = string.Format("tile_x{0}_y{1}", x, y);
-        tile.transform.localPosition = new Vector3(x - 0.1f, y - 0.1f, 0);
+        var delta = Time.deltaTime;
 
-        woodcutter.Setup(x - 0.1f, y - 0.1f); 
+        tile.transform.Translate(new Vector3(-1, -1, 0) * 2 * delta);
 
-        // make highlight without condition
-        GameObject local_tile_groupH = new GameObject(woodcutter.ObjName + "Highlight");
-                local_tile_groupH.transform.parent = gameObject.transform;
-                local_tile_groupH.transform.localPosition = new Vector3(0, 0, 0);
-                GameObject tileH = Instantiate(woodcutter.HighlightPattern, local_tile_group.transform);
+        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
 
-            tileH.name = string.Format("tile_x{0}_y{1}", x - 0.1f, y - 0.1f);
-                tileH.transform.localPosition = new Vector3(x - 0.1f, y - 0.3f, 0); 
+        if (null != tile){
+            tile.transform.Translate(new Vector3(-1, -1, 0) * 2 * delta);
+        }
+
+        woodcutter.Setup(x - 2 * delta, y - 2 * delta); 
     }
 
     public void MoveDownRight(WoodcutterClass woodcutter){
 
-        DestroyHighlight(woodcutter);
-        DestroyWoodcutter(woodcutter);  
+       setPattern(woodcutter, woodcutter.WoodcutterDownRight); 
 
         float x;
         float y;
 
         x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y; 
+        y = woodcutter.GetCoord().y;
 
-        GameObject local_tile_group = new GameObject(woodcutter.ObjName);
-            local_tile_group.transform.parent = gameObject.transform;
-            local_tile_group.transform.localPosition = new Vector3(0, 0, 0);
-            GameObject tile = Instantiate(woodcutter.WoodcutterDownRight, local_tile_group.transform);
+        GameObject tile = GameObject.Find(woodcutter.ObjName);
 
-        tile.name = string.Format("tile_x{0}_y{1}", x, y);
-        tile.transform.localPosition = new Vector3(x + 0.1f, y - 0.1f, 0);
+        var delta = Time.deltaTime;
 
-        woodcutter.Setup(x + 0.1f, y - 0.1f); 
+        tile.transform.Translate(new Vector3(1, -1, 0) * 2 * delta);
 
-        // make highlight without condition
-        GameObject local_tile_groupH = new GameObject(woodcutter.ObjName + "Highlight");
-                local_tile_groupH.transform.parent = gameObject.transform;
-                local_tile_groupH.transform.localPosition = new Vector3(0, 0, 0);
-                GameObject tileH = Instantiate(woodcutter.HighlightPattern, local_tile_group.transform);
+        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
 
-            tileH.name = string.Format("tile_x{0}_y{1}", x + 0.1f, y - 0.1f);
-                tileH.transform.localPosition = new Vector3(x + 0.1f, y - 0.3f, 0); 
+        if (null != tile){
+            tile.transform.Translate(new Vector3(1, -1, 0) * 2 * delta);
+        }
+
+        woodcutter.Setup(x + 2 * delta, y - 2 * delta);  
     }
 
     public void DestroyWoodcutter(WoodcutterClass woodcutter){
