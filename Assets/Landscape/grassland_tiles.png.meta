@@ -1,0 +1,2120 @@
+fileFormatVersion: 2
+guid: 2d148e8573da1fd479a680faedca2078
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grassland_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1308
+        width: 57
+        height: 36
+      alignment: 9
+      pivot: {x: 0.49999988, y: 0.44240317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d761eb3f3583a3458caaff64a5cd020
+      internalID: -1823853046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1103
+        width: 50
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8981fdda22ff2904e96387645656ab97
+      internalID: 1617417401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1091
+        width: 33
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6ed5681619d6245929786f778672d9
+      internalID: -120762963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1099
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f288c661cc4b5146b0e41453f7ba6d8
+      internalID: 422846973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1092
+        width: 33
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c91047016ff4d46a17917bbf48dd6f
+      internalID: -1069772672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1099
+        width: 50
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646e12f86f899be4fa63abd435bc6f6b
+      internalID: 1727454872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1091
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5f1298ece06a042b8c6bf8d3b8471d
+      internalID: 1459646574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1099
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b396e75038cf714e929659d1fc5dacf
+      internalID: 1750156018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1091
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53d715968f790041bc09e4194521cc8
+      internalID: 1832622584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1093
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1705f27ecbb2545aab0f607c59df1b
+      internalID: 227261514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1088
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995b2abd564479542b1279bf1b2f7854
+      internalID: 624093019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1089
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837158912e6fee549a4dde28180a583f
+      internalID: 1637735838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1092
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2df636b13472e4c948f4debc80792a
+      internalID: -1583826707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ad7724d01b3fe4fa2e6161f0f80a9a
+      internalID: -242643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1030
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ca1a95ee1e4454e98a8ecda158088f
+      internalID: -1983156211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1029
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f8c0b8a0aba564abc4abae4a73c0d0
+      internalID: 1839988436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1028
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5bc020182c9634aa51ed970c2326d7
+      internalID: -1603673109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1027
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1163171db53024783bd6927652a77e
+      internalID: -815215272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1036
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dfd39d1aaa63445a587ca6dc93568e
+      internalID: 1213107957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1040
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa55e469c7d1df440ad5447df2a09fc0
+      internalID: -226880895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1041
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12c9b243d04dcb47804d58b67646dcf
+      internalID: 788148776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1037
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5085b3ce89f32d84e88c4399df41b9a4
+      internalID: -1491540622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1035
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b38f8a2a3ffa04892972ee74d85e96
+      internalID: -1453113396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1038
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9861047d361f1f4c85f04d83d0b27f1
+      internalID: 831142414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1042
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8a54b3d521e004497fb89d856aafa2
+      internalID: 1462940435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1034
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7771649fb7b3c4098f2fbff8316efd
+      internalID: 608518492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 965
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3686debd8328345af66b3354ef2f95
+      internalID: 2009259766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 966
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ae30c75f696f9438ac207c7bbe1c82
+      internalID: 2137115729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 967
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8262c06f0fcdc41bf026646bb7a0e6
+      internalID: 1337040672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_29
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 966
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a40a62551bc3549b806004dae901ff
+      internalID: -246118806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 966
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c270aa9c40a7d498fc0ef11f129edc
+      internalID: 1813416799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 962
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed43450ca600cf046912adc02aa48b69
+      internalID: 1285770752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_32
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 975
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067e59046c27e164d8ecda9a18383be9
+      internalID: 1231851782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_33
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 975
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c1419ffdeee8f4bba081ebb56b09d6
+      internalID: -1756217552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_34
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 968
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a81b69bc69a48143a35baaa502aef6a
+      internalID: -1765305670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_35
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 963
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db73f7b4c9a3954685f5dfbd5cb10cf
+      internalID: -134768516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_36
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 963
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3dac68bc0a30b4a91b683ce285eaba
+      internalID: -896702547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_37
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 965
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02352505a428a3746badecd0ed7868c9
+      internalID: 1093085082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_38
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 963
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0408caa9f1dc78d4da3257f1e97ca793
+      internalID: -412545928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_39
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 966
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b63eeaed8b3e3438f65d632da64ad7
+      internalID: 262249232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_40
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 963
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d167af30f74d6e449901d75962bea38
+      internalID: 592933299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_41
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 966
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9231d1fe6a470ea4bba91451417286cb
+      internalID: -795834712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 877
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c666487f36ebf47a0c62b951974b9e
+      internalID: 587608866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_43
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 871
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcafcd9d9b6023b49aa594db0e9c3617
+      internalID: -1804949237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_44
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 882
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d19e485058777a4db597103b8ad8b3a
+      internalID: 144983887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_45
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 869
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571e6e802e593374cabddd3771d8a091
+      internalID: -1269173496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_46
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 875
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971abc1cf28458c4599ddb9b803fca2a
+      internalID: -284443101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_47
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 868
+        width: 43
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ccb0a3e3b769247914ae48dcade72a
+      internalID: 740708186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_48
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 871
+        width: 40
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240758f0c32c90e4da608efaf372a334
+      internalID: -1735067624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_49
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 869
+        width: 45
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f2d77450f28714bad1872e7f9c8197
+      internalID: 300104208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_50
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 868
+        width: 41
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18d7485e07b87043924d8fecafb68c9
+      internalID: 1647128596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_51
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 866
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f615e83f0cdac45af54e0c1054f8c1
+      internalID: -1298063969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_52
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 868
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9980b12c499d7c4e9683cd95c3cefbf
+      internalID: 1427467363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_53
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 876
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c70bb6e5278ab49a6fd192179d137c
+      internalID: 1967818792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_54
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 876
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d8fcf7b4c70c24692e3cb0dc0c8a3c
+      internalID: 1029843913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_55
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 872
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d7df7d9c1462c488370ef9572c6838
+      internalID: -793734861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_56
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 873
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1eefa7ffabd6d541b3b126c2f93fe20
+      internalID: 764641338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_57
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 871
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de32807c4fda9341bff3bbc929215fe
+      internalID: 1093112378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_58
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 871
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd103eec07d95841a127b825f2d3446
+      internalID: 1252971295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 803
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671e129d117cd8b43932d9a632cbed3c
+      internalID: -583231661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_60
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 481
+        width: 30
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee468652a5a5bea44b1df5d13203445a
+      internalID: 1132713579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 481
+        width: 64
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2e571d68b5d374f92b3e08cc8fa4cc
+      internalID: 452262370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 482
+        width: 32
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfef2868beadd04d9d157968d6743e4
+      internalID: -274326754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 481
+        width: 32
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae99545efc3175144aa717e9e241a98a
+      internalID: -49165273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_64
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 483
+        width: 31
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a56ea3b81eec9944908ea69cfccc764
+      internalID: 14030565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 485
+        width: 32
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eeb40981c3990d4e91fdc4ab6d5179d
+      internalID: -1383864179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 484
+        width: 64
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452965a70053d744bbe11ec4280e1eb5
+      internalID: -1824747135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_67
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 487
+        width: 31
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50878f3ca7cd9004288fc32192a40e51
+      internalID: -258458640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_68
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 412
+        width: 223
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9395694fc9aae93409fa1d2aef9aebe7
+      internalID: 2112256847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_69
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119b4fe4f3f1439448afc87f78a49b9b
+      internalID: -316889375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 89
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c317437918a874ea7807d1b639f486
+      internalID: 752150118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_71
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 355
+        width: 181
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423d0ddf2ea0869428c7af8f3353af53
+      internalID: 1748240703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_72
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 355
+        width: 89
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1071bfeafdc8bc74e95885e40a1ff05d
+      internalID: -401794940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_73
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 180
+        width: 111
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4847057e45191a34f8aa94409ac9d495
+      internalID: 2138025994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_74
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 178
+        width: 101
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c76870f1516e59498aa0e2de2e71d90
+      internalID: -1877014313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_75
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 177
+        width: 92
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db240bc3f524b28428c791a1ebec48d7
+      internalID: -566134494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_76
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 238
+        width: 118
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac712c2e685e5734aa7e56294850d8a4
+      internalID: -1770212030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_77
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 239
+        width: 113
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543842ec8dd33cb4ea870fcce84b5f3a
+      internalID: 1625466145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_78
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 239
+        width: 111
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e136cebc6ff034dae9eceb8dfa287a
+      internalID: 307104541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_79
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 235
+        width: 116
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae30d7a8fbaed6a48b2cc8ed2062b75e
+      internalID: -1379870961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_80
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 160
+        width: 115
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959cce3dfcfad98418f04db60b16ab81
+      internalID: -1505255977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_81
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2bc0a571473254387afab42d06d00b
+      internalID: -1976190206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_82
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 5
+        width: 120
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ab4950c52fb6c4ca362c79df3f9e2e
+      internalID: 712031279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_83
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 8
+        width: 119
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee1b0f45a4946a40ab9f42ff5619a47
+      internalID: -794130127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_84
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 4
+        width: 117
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5f1f437389e7a4f9ef729f92a7729e
+      internalID: -687149341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_85
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 119
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a2f9b6f1487fa4fba302ea3e3c4658
+      internalID: -1748776683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_86
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2
+        width: 122
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a92c1914dedd44aa419bdcd13c7e50
+      internalID: 1044901381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_87
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 4
+        width: 118
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb26e58c70a6344d9169527d9939ea6
+      internalID: 1718963495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_88
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 16
+        width: 123
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cbcec2dd3c37e4ba4fcc74b99cb676
+      internalID: -654612407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassland_tiles_89
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 5
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca80f8fadd853442898cf5477d13b55
+      internalID: -1642552595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      grassland_tiles_0: -1823853046
+      grassland_tiles_1: 1617417401
+      grassland_tiles_10: 624093019
+      grassland_tiles_11: 1637735838
+      grassland_tiles_12: -1583826707
+      grassland_tiles_13: -242643
+      grassland_tiles_14: -1983156211
+      grassland_tiles_15: 1839988436
+      grassland_tiles_16: -1603673109
+      grassland_tiles_17: -815215272
+      grassland_tiles_18: 1213107957
+      grassland_tiles_19: -226880895
+      grassland_tiles_2: -120762963
+      grassland_tiles_20: 788148776
+      grassland_tiles_21: -1491540622
+      grassland_tiles_22: -1453113396
+      grassland_tiles_23: 831142414
+      grassland_tiles_24: 1462940435
+      grassland_tiles_25: 608518492
+      grassland_tiles_26: 2009259766
+      grassland_tiles_27: 2137115729
+      grassland_tiles_28: 1337040672
+      grassland_tiles_29: -246118806
+      grassland_tiles_3: 422846973
+      grassland_tiles_30: 1813416799
+      grassland_tiles_31: 1285770752
+      grassland_tiles_32: 1231851782
+      grassland_tiles_33: -1756217552
+      grassland_tiles_34: -1765305670
+      grassland_tiles_35: -134768516
+      grassland_tiles_36: -896702547
+      grassland_tiles_37: 1093085082
+      grassland_tiles_38: -412545928
+      grassland_tiles_39: 262249232
+      grassland_tiles_4: -1069772672
+      grassland_tiles_40: 592933299
+      grassland_tiles_41: -795834712
+      grassland_tiles_42: 587608866
+      grassland_tiles_43: -1804949237
+      grassland_tiles_44: 144983887
+      grassland_tiles_45: -1269173496
+      grassland_tiles_46: -284443101
+      grassland_tiles_47: 740708186
+      grassland_tiles_48: -1735067624
+      grassland_tiles_49: 300104208
+      grassland_tiles_5: 1727454872
+      grassland_tiles_50: 1647128596
+      grassland_tiles_51: -1298063969
+      grassland_tiles_52: 1427467363
+      grassland_tiles_53: 1967818792
+      grassland_tiles_54: 1029843913
+      grassland_tiles_55: -793734861
+      grassland_tiles_56: 764641338
+      grassland_tiles_57: 1093112378
+      grassland_tiles_58: 1252971295
+      grassland_tiles_59: -583231661
+      grassland_tiles_6: 1459646574
+      grassland_tiles_60: 1132713579
+      grassland_tiles_61: 452262370
+      grassland_tiles_62: -274326754
+      grassland_tiles_63: -49165273
+      grassland_tiles_64: 14030565
+      grassland_tiles_65: -1383864179
+      grassland_tiles_66: -1824747135
+      grassland_tiles_67: -258458640
+      grassland_tiles_68: 2112256847
+      grassland_tiles_69: -316889375
+      grassland_tiles_7: 1750156018
+      grassland_tiles_70: 752150118
+      grassland_tiles_71: 1748240703
+      grassland_tiles_72: -401794940
+      grassland_tiles_73: 2138025994
+      grassland_tiles_74: -1877014313
+      grassland_tiles_75: -566134494
+      grassland_tiles_76: -1770212030
+      grassland_tiles_77: 1625466145
+      grassland_tiles_78: 307104541
+      grassland_tiles_79: -1379870961
+      grassland_tiles_8: 1832622584
+      grassland_tiles_80: -1505255977
+      grassland_tiles_81: -1976190206
+      grassland_tiles_82: 712031279
+      grassland_tiles_83: -794130127
+      grassland_tiles_84: -687149341
+      grassland_tiles_85: -1748776683
+      grassland_tiles_86: 1044901381
+      grassland_tiles_87: 1718963495
+      grassland_tiles_88: -654612407
+      grassland_tiles_89: -1642552595
+      grassland_tiles_9: 227261514
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
