@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    private Camera myCamera;
+    public Camera myCamera;
     private Func<Vector3> GetCameraFollowPositionFunc;
     private Func<float> GetCameraZoomFunc;
 

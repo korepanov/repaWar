@@ -37,6 +37,11 @@ public class Landscape : MonoBehaviour
 	    woodcutter.Setup(40f, 40f); 
         woodcutter.ObjName = "mainWoodcutter"; 
 	    SpawnWoodcutter(woodcutter);
+        InitMenu(); 
+    }
+
+    void InitMenu(){
+         woodcutter.peasantLarge.SetActive(false); 
     }
 
     void Update(){
@@ -90,7 +95,8 @@ public class Landscape : MonoBehaviour
             tile_groups.Add(prefab_pair.Key, tile_group);
         }
     }
- 
+    
+
     void GenerateMap()
     {
         /** Generate a 2D grid using the Perlin noise fuction, storing it as
@@ -422,6 +428,9 @@ public class Landscape : MonoBehaviour
     }
 
     private void MakeHighlight(WoodcutterClass woodcutter){
+        
+        woodcutter.peasantLarge.SetActive(true); 
+
     	float x;
         float y; 
 
@@ -439,6 +448,7 @@ public class Landscape : MonoBehaviour
             tile.name = string.Format("tile_x{0}_y{1}", x, y);
                 tile.transform.localPosition = new Vector3(x, y - 0.2f, 0);
         }
+
     }
 
     private bool HasHighlight(WoodcutterClass woodcutter){
@@ -447,6 +457,8 @@ public class Landscape : MonoBehaviour
     }
 
     private void DestroyHighlight(WoodcutterClass woodcutter){
+        woodcutter.peasantLarge.SetActive(false); 
+
         GameObject highlight = GameObject.Find(woodcutter.ObjName + "Highlight");
         
         if (null != highlight){

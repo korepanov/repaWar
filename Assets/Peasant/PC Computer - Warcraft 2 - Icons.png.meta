@@ -1,0 +1,4078 @@
+fileFormatVersion: 2
+guid: 7063963d306f7d74b9c744fc080560fa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 702
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f944e6c524165e6438285e559b90ce23
+      internalID: 1825512383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 702
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f499b7774cdcb48be4d544e336df67
+      internalID: 1305271228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 702
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2601d23a03272fe4b8dd9b246b1b0057
+      internalID: -1429449981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 702
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bafd9147c5819441bec6884d3dd6518
+      internalID: 1240659087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 702
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee077fed1e2fd8049ad35a090fa9bcd1
+      internalID: 844959946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 702
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9791eadcc5e03c74db57ed2ebc62e060
+      internalID: 1710879347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 702
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecf9171d0349884abbd116c9f7301ad
+      internalID: -498436219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 702
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af75584770e771343a2b8b32e6874e40
+      internalID: 539153796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 702
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa5f3580d5ffa94a93285bd16e85572
+      internalID: 338459278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_9
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 702
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196bff71db230f240a6765ebd8ac13b4
+      internalID: -1023665203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 661
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82120b8e2ad233c4795ffefd57426bd3
+      internalID: 176756292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_11
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 661
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fbaf463e79cda43ad5e35382b550b6
+      internalID: 891255521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 661
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91aa3b31c559d7747b62011dfb7ea5d0
+      internalID: 615747829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 661
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e29aa2072bafc4a815a2224df16b6f
+      internalID: 1747058912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_14
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 661
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61be6e683e5fd2498bc2d54288d3de2
+      internalID: -1430985882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_15
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 661
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5a366f68da68c46b983be4e8f46387
+      internalID: 640032358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 661
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869bc0106544f054e81a0de43c3f368a
+      internalID: -59714901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_17
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 661
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4dd417bda8102458c28583b18c3747
+      internalID: -1449036134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_18
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 661
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a13e5a8f4b44a458a9f61a49cfa7f4
+      internalID: -379435055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_19
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 661
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e6836cab3fc7c4bb3285ebb0940ae2
+      internalID: -537761455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 620
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eddc32f00c91394e81c8977fd584879
+      internalID: 1001735753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_21
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 620
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775d1488794068e4a99f4cc40b523f36
+      internalID: 1570825166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 620
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a000f6b14da2854aadeccae35855a5a
+      internalID: -760658619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_23
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 620
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c2acc64ecddc44995ff2e477cf6802
+      internalID: -578686799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_24
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 620
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e224f871a79a3429c70203381dddb7
+      internalID: 1482834829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_25
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 620
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10a68b143db63a4ba8a25365a35df12
+      internalID: 1243530239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 620
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05eb83a98fcbfa54aba148d5d58964fb
+      internalID: -1592417385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_27
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 620
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c4e34513512984fb4078cb79bbfafd
+      internalID: -517589443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_28
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 620
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaaaba9289f5d74cb81955e9701061c
+      internalID: -1700606671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_29
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 620
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8529852b1da837a4d839ef9037d046ca
+      internalID: -959079989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 579
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73df4784e28d29d4db2e23e5cd0ddf28
+      internalID: -958360656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_31
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 579
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b732512006ebb41a1c80f5f4ee319b
+      internalID: 1668668373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_32
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 579
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4a497b913c96e46b02b55d24e2dc35
+      internalID: 285375341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 579
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7526ad6ac810a2448c67983f63d9c56
+      internalID: -7119945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_34
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 579
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b28a856391d4546b411e29390f808d
+      internalID: 2121753493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_35
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 579
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734ec16080e92634ba8d5f11771098fc
+      internalID: 1256101547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_36
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 579
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12530638773299e4d9bfac5a9e79d74d
+      internalID: -788084822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_37
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 579
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99549d85edf3c4b42a51835dd820cd01
+      internalID: 2141700820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_38
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 579
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8991a120efbd731458ed02f7e31a5d10
+      internalID: 1989145393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_39
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 579
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f3b1ba2b83ba946b371c24513bd531
+      internalID: -1703280725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 538
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc5948535ae55448acea7b33abe3c89
+      internalID: 1782652839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_41
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 538
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e70c312bd1daa4ba3e40aaecba4efb
+      internalID: 228615774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_42
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 538
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab737313d33e8c43b7923bf868e1fc3
+      internalID: 1243577400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_43
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 538
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a999403d82cb1c49a88f52b4cd62a60
+      internalID: -387968207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_44
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 538
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6c2e91341b8154fabb5f0702cf3697
+      internalID: -1583215158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_45
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 538
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71a7290a7232af4189394e9b67ba50d
+      internalID: -1803137822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 538
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17378d15a5f86e14382117f64e3fa951
+      internalID: 1159092028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_47
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 538
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb769b70d24400646aa98558a2ac2a6a
+      internalID: 1097294885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_48
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 538
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dd8fb9100957046b8dcffc35e3a3ab
+      internalID: -693234344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_49
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 538
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5425fd3af5b15da43b37d77a992f7255
+      internalID: -184669208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_50
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 497
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6753ab62f27c98428c6fa039ba4275f
+      internalID: -736247021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_51
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 497
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9ead3f5ee6e1f4590c53aa9722edfe
+      internalID: 377728568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_52
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 497
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee6f101932733a499b84cbd1eded7d7
+      internalID: -1968488116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_53
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 497
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65732b532d6cdc4191a47f9b460e6ce
+      internalID: 1261095330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_54
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 497
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cda4aadfa5f644b90eb0d98f7bf1ae
+      internalID: 1417322774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_55
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 497
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d6bf3552f2cfd4b883fd98dda649c3
+      internalID: -847038946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_56
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 497
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ac98a506198e64594d396e2c5b1128
+      internalID: -1421917374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_57
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 497
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06eed265c5a0174bbcd879ef9f5f4fe
+      internalID: -1497353542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_58
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 497
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24d231b6e3bc0841b98001bed8101ec
+      internalID: 688539923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_59
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 497
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf3f34158b67dd4ab846e83a130d94b
+      internalID: 700075059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 456
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbbbe4c0d1d7714dae91d338ffe8d5b
+      internalID: 1602023508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_61
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 456
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5722bc7b574be40bd3015fec99d388
+      internalID: -120360298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_62
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 456
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38dd12e6f24332409b27b6b3a4b023e
+      internalID: 2107523353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_63
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 456
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760127d59094fbd458fe7b3952642bbc
+      internalID: 443621606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_64
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 456
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dc16218353c93489d1a45cd07c795f
+      internalID: -479828695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_65
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 456
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825229a37d058d84ea3fc828877cec6c
+      internalID: -143137887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_66
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 456
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570b333a6c89a8f4daada38e4cef35f8
+      internalID: -752760086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_67
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 456
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9d636025f78a442af670bca4854973
+      internalID: -569838945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_68
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 456
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e4f4d03406e89498b1255335a6c05a
+      internalID: 1665754610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_69
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 456
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737eb5564e6bae4418e5f52f35b5d592
+      internalID: -19497431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_70
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 415
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65580d073c702a4c8ca5cda95fc0c92
+      internalID: -1262310082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_71
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 415
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ae9e61f44ecbe4484b0b81666102df
+      internalID: -1636578090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_72
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 415
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fdcedb6ad88114797207eaa2d05599
+      internalID: -249386197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_73
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 415
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52e2fb7ff34b314f98a85a435004382
+      internalID: 1150553057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_74
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 415
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85b14bb8a9243c43b7a0bcfa3afc3bb
+      internalID: -1866484196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_75
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 415
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e052136fb725124585e0ceb69293268
+      internalID: -1581989982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_76
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 415
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e441c6bad8656344096c9f4fb0288e15
+      internalID: 494580968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_77
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 415
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa786a584b303014da040a6c7a44786a
+      internalID: 298805673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_78
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 415
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc63af9d0bd97b469725dbc5368e8ba
+      internalID: 1510380686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_79
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 415
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce8c36fa50b42d49bd4e1475fd59601
+      internalID: 1474876066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_80
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 374
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c59263783201b6418d7e9be366f3893
+      internalID: -939336341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_81
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 374
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34230850e2a36e4b811a2b9c9f007cd
+      internalID: 420315613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_82
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 374
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c841226c5beb7534f8ee7e1b324abe69
+      internalID: -619785743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_83
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 374
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405497590f13cf841a1c58e6ce0d0063
+      internalID: -1584042179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_84
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 374
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fbc310feb4dca429730497f4c44f7d
+      internalID: 1100336383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_85
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 374
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aef285b5052bea428451e7aeccfc93f
+      internalID: -1074429002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_86
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 374
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c801f5b31c96f2439aaca6b8e8d2424
+      internalID: 884918460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_87
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 374
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c84f592f547cae4c9b64d36c7b796d4
+      internalID: -725881659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_88
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 374
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462c10f0f69a56b499b57d8d8651c1d7
+      internalID: 1016701574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_89
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 374
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e3becafbfbe2f4db25f3393cf8f5f6
+      internalID: 1683638730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_90
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 333
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0509dfc260764db40962a51a6fe98a43
+      internalID: -56297024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_91
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 333
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e28f87e9f771ff44b68f656d8227f0a
+      internalID: 1362137213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_92
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 333
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1b7476ffec1e147bb4691675c8662c
+      internalID: -1471985862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_93
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 333
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e1cba757f8de749a5d33e66ba2e539
+      internalID: 172010686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_94
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 333
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed0a26499dcb8c43a333622608a6234
+      internalID: 2137009096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_95
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 333
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951abaa7828640140bb6b0b1ce3d6777
+      internalID: -887996087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_96
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 333
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201a1d21826a6e448b6c4e00fc7bcf53
+      internalID: -1749671611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_97
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 333
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e5658ff92d0454f851eca11d94f08a
+      internalID: 1451750170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_98
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 333
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ab2d0ad6e3ce049a1c4c4f1e55b49b
+      internalID: -615369182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_99
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 333
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95376fb5c64c46d44b70676dd10891c9
+      internalID: -1669903760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_100
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 292
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc01683f0e98604883a530a943410e5
+      internalID: 1853241044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_101
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 292
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dc81bcb70602c4cbec618a0b67267b
+      internalID: 852634777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_102
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 292
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9794b71c8fa624bb1e47daa3cf4d48
+      internalID: 1938299755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_103
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 292
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4223441220296034c8c29ad74c5ef318
+      internalID: -682348306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_104
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 292
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829175e0dabfc3f41875dc0546e5ba45
+      internalID: -673772924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_105
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 292
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5071ab436163e854faa422ec7459b238
+      internalID: -2146178125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_106
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 292
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23715009fdc78df42b518bf8ff057b3d
+      internalID: 991232888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_107
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 292
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a214e68cce387e54e8c9d744d01815fc
+      internalID: 519497109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_108
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 292
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490fd4f0b1eabb04db493fea26bfcf0e
+      internalID: -168145100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_109
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 292
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7571a505378c740aeab491175f93ac
+      internalID: -472379054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_110
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 251
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e937db1831191d4ca9bbb50ba957f45
+      internalID: -280930574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_111
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 251
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5482d44feaa75d64198ffb009d661306
+      internalID: 1418143123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_112
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 251
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bb3a02da904aa4582dc360b3337f5f
+      internalID: -289779807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_113
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 251
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29e647c413d40a42bc7a58be5b9cc34
+      internalID: 1264449324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_114
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 251
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dff3283029a1f4a9c6cc75d7f241a6
+      internalID: -528382226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_115
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 251
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bc2f11bfe93cb4fb4c0e7dee45379d
+      internalID: -1075485004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_116
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 251
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f639f7a87cea4746b45dd2613edae3c
+      internalID: 737803945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_117
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 251
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67010ac4d4a85c046a296d765cf309e0
+      internalID: 431729976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_118
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 251
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b79061ab4f9b2d4d94d47b9cb849a22
+      internalID: 1511113900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_119
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 251
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52de791a2247b1848acaada483c80e73
+      internalID: -930618437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_120
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 210
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776dcbc7dc2429f48810e1586907e263
+      internalID: 1827895000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_121
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 210
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6921b7c01d4b8ba4bb65e61c3dfdfb55
+      internalID: -244915445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_122
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 210
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d991b8b99a5cd48af92e3b1d4a2f6e
+      internalID: 1261674491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_123
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 210
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dfeff85e1a22c48a426cee32c6e40d
+      internalID: -2127670794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_124
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 210
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897641f27e46e1944b47ecccaf048e14
+      internalID: 1210936257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_125
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 210
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a8d6ab8a6821c4bbb64280163cdb2a
+      internalID: 762662724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_126
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 210
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3dfeff28ef1204cbf51bcc3485c256
+      internalID: 1074494325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_127
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 210
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ff3682490dd4e4cb4dc25f3e13bdb8
+      internalID: 2092060717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_128
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 210
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74041be2d77385a4e8ad47a09236a3c0
+      internalID: -93569527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_129
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 210
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e7f5cd87d1f3345b150d34cf7ec378
+      internalID: 1564661273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_130
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 169
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce979c032b464274995ba92c0e94e108
+      internalID: -840148285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_131
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 169
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e86702f6479af48846c040927ab7b8
+      internalID: -1159777438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_132
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 169
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1309f3fd0e5d76847bef384fb69a364a
+      internalID: -1278669411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_133
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 169
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd2567a45e9b204d89af2e6ddbee962
+      internalID: 2004606504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_134
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 169
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df30dc8930df4be4d92f81c10abeace9
+      internalID: 1053252067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_135
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 169
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04764943fb2117949a6961416692184e
+      internalID: -1150556556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_136
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 169
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac62ac185ae51448adaad218379a938
+      internalID: 162135102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_137
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 169
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418f2325650d6db4fa4f59cea3137a05
+      internalID: -220039813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_138
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 169
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b86eedaab41a047809ab029fe9f2b3
+      internalID: -354776669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_139
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 169
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ecd0304ce2eab4a9706c41b4a33625
+      internalID: -370197041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_140
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 128
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f3b33777f22434facf25225f0b9295
+      internalID: 358913910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_141
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 128
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e1c0694c1b09f45bc735b6b875406d
+      internalID: 787977645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_142
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 128
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9706ee70e425d5469e7b65d567c161f
+      internalID: 1751602109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_143
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 128
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6685cc43923386747b772524501e3301
+      internalID: 741339769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_144
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 128
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3e5e9c2bf2aec4b8c13c0d927b9092
+      internalID: 1563231956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_145
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 128
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049730825740199418d2844c6ded0ff1
+      internalID: 482584870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_146
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 128
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1003ea1441459324ca12d0236c7c80e0
+      internalID: 1929333651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_147
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 128
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68138636b95cac14cbdd428b407a4c15
+      internalID: -353096435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_148
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 128
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08489feae5cd3e34e94d2579eedab4a0
+      internalID: 386766102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_149
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 128
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3b53e9b592939489b69db08bff6925
+      internalID: -13437509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_150
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 87
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146800531f99cae4ca5aecbb0202f5a0
+      internalID: 968928512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_151
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 87
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b1408fcb7bf8f4ea6f513bd49ed505
+      internalID: 1842962928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_152
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 87
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490239fe05c46ad4fa656b9d21600dc4
+      internalID: -777858307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_153
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 87
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4544f58837071a479d1457663a91464
+      internalID: 819376529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_154
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 87
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3fb12b6cc2a5b439c18fc3ca201f10
+      internalID: 2008698832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_155
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 87
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfaa8ed43e38f543b7fd07fdc6292fd
+      internalID: -517065527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_156
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 87
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386b7188ee422c346995a1bc9a48e41d
+      internalID: 565821422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_157
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 87
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b22629445383440b8647a78ca1a455
+      internalID: -281583951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_158
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 87
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16e16d81e040444f885852a7b636b0c
+      internalID: 40700834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_159
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 87
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44ec0883a482964da7b82b443119324
+      internalID: -279865868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_160
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 46
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3fb848334774a4c817b959bc468862
+      internalID: 1293400396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_161
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 46
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ae9dab0e957884d80da84c17f623a3
+      internalID: -775233750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_162
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 46
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa216cf719bf09a4c8412c885adeeb20
+      internalID: 424516011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_163
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 46
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d107dcab04294469e2586cd9136fbd
+      internalID: 1370003911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_164
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 46
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6e5ca81a50ab045ba69877703198e8
+      internalID: 1075247337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_165
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 46
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f58325363744e42a3fc4fd003f5e2c
+      internalID: -579856010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_166
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 46
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7bd0cafaf1c154b8c4b0b094cd32c9
+      internalID: -1553523874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_167
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 46
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2555683c80c91f948b3f24981b02b4bb
+      internalID: 1429056171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_168
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 46
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1921cf11dbf14b4fb82d7277010f675
+      internalID: 1329561923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_169
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 46
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68862df0e8405894a97ddf41b4d2d136
+      internalID: 753227353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_170
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f8800e63864e646898d803495c968c
+      internalID: 917704089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_171
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 5
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795e03bc5d53c5347844f5696cfd2b61
+      internalID: 255449771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_172
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 5
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49db14ae56980bd44becc3d45b886e6e
+      internalID: 2076546992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_173
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 5
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680f87d4f0066564bab7c6f686c67a64
+      internalID: 292850118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_174
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 5
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bfba71dac3adb41ba3b146baaa0ec4
+      internalID: -1688727238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_175
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 5
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a436dd9c7390548be0d3e5594885e3
+      internalID: 1113348205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_176
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 5
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5089e3a65f4b7504e97bf2c3e6f1f546
+      internalID: 285687452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_177
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 5
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702881da444f22f4685e2774b1ec69a8
+      internalID: 1913186698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Warcraft 2 - Icons_178
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 8
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e958492618eefb644a36d362c51e0bae
+      internalID: 498584623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Warcraft 2 - Icons_0: 1825512383
+      PC Computer - Warcraft 2 - Icons_1: 1305271228
+      PC Computer - Warcraft 2 - Icons_10: 176756292
+      PC Computer - Warcraft 2 - Icons_100: 1853241044
+      PC Computer - Warcraft 2 - Icons_101: 852634777
+      PC Computer - Warcraft 2 - Icons_102: 1938299755
+      PC Computer - Warcraft 2 - Icons_103: -682348306
+      PC Computer - Warcraft 2 - Icons_104: -673772924
+      PC Computer - Warcraft 2 - Icons_105: -2146178125
+      PC Computer - Warcraft 2 - Icons_106: 991232888
+      PC Computer - Warcraft 2 - Icons_107: 519497109
+      PC Computer - Warcraft 2 - Icons_108: -168145100
+      PC Computer - Warcraft 2 - Icons_109: -472379054
+      PC Computer - Warcraft 2 - Icons_11: 891255521
+      PC Computer - Warcraft 2 - Icons_110: -280930574
+      PC Computer - Warcraft 2 - Icons_111: 1418143123
+      PC Computer - Warcraft 2 - Icons_112: -289779807
+      PC Computer - Warcraft 2 - Icons_113: 1264449324
+      PC Computer - Warcraft 2 - Icons_114: -528382226
+      PC Computer - Warcraft 2 - Icons_115: -1075485004
+      PC Computer - Warcraft 2 - Icons_116: 737803945
+      PC Computer - Warcraft 2 - Icons_117: 431729976
+      PC Computer - Warcraft 2 - Icons_118: 1511113900
+      PC Computer - Warcraft 2 - Icons_119: -930618437
+      PC Computer - Warcraft 2 - Icons_12: 615747829
+      PC Computer - Warcraft 2 - Icons_120: 1827895000
+      PC Computer - Warcraft 2 - Icons_121: -244915445
+      PC Computer - Warcraft 2 - Icons_122: 1261674491
+      PC Computer - Warcraft 2 - Icons_123: -2127670794
+      PC Computer - Warcraft 2 - Icons_124: 1210936257
+      PC Computer - Warcraft 2 - Icons_125: 762662724
+      PC Computer - Warcraft 2 - Icons_126: 1074494325
+      PC Computer - Warcraft 2 - Icons_127: 2092060717
+      PC Computer - Warcraft 2 - Icons_128: -93569527
+      PC Computer - Warcraft 2 - Icons_129: 1564661273
+      PC Computer - Warcraft 2 - Icons_13: 1747058912
+      PC Computer - Warcraft 2 - Icons_130: -840148285
+      PC Computer - Warcraft 2 - Icons_131: -1159777438
+      PC Computer - Warcraft 2 - Icons_132: -1278669411
+      PC Computer - Warcraft 2 - Icons_133: 2004606504
+      PC Computer - Warcraft 2 - Icons_134: 1053252067
+      PC Computer - Warcraft 2 - Icons_135: -1150556556
+      PC Computer - Warcraft 2 - Icons_136: 162135102
+      PC Computer - Warcraft 2 - Icons_137: -220039813
+      PC Computer - Warcraft 2 - Icons_138: -354776669
+      PC Computer - Warcraft 2 - Icons_139: -370197041
+      PC Computer - Warcraft 2 - Icons_14: -1430985882
+      PC Computer - Warcraft 2 - Icons_140: 358913910
+      PC Computer - Warcraft 2 - Icons_141: 787977645
+      PC Computer - Warcraft 2 - Icons_142: 1751602109
+      PC Computer - Warcraft 2 - Icons_143: 741339769
+      PC Computer - Warcraft 2 - Icons_144: 1563231956
+      PC Computer - Warcraft 2 - Icons_145: 482584870
+      PC Computer - Warcraft 2 - Icons_146: 1929333651
+      PC Computer - Warcraft 2 - Icons_147: -353096435
+      PC Computer - Warcraft 2 - Icons_148: 386766102
+      PC Computer - Warcraft 2 - Icons_149: -13437509
+      PC Computer - Warcraft 2 - Icons_15: 640032358
+      PC Computer - Warcraft 2 - Icons_150: 968928512
+      PC Computer - Warcraft 2 - Icons_151: 1842962928
+      PC Computer - Warcraft 2 - Icons_152: -777858307
+      PC Computer - Warcraft 2 - Icons_153: 819376529
+      PC Computer - Warcraft 2 - Icons_154: 2008698832
+      PC Computer - Warcraft 2 - Icons_155: -517065527
+      PC Computer - Warcraft 2 - Icons_156: 565821422
+      PC Computer - Warcraft 2 - Icons_157: -281583951
+      PC Computer - Warcraft 2 - Icons_158: 40700834
+      PC Computer - Warcraft 2 - Icons_159: -279865868
+      PC Computer - Warcraft 2 - Icons_16: -59714901
+      PC Computer - Warcraft 2 - Icons_160: 1293400396
+      PC Computer - Warcraft 2 - Icons_161: -775233750
+      PC Computer - Warcraft 2 - Icons_162: 424516011
+      PC Computer - Warcraft 2 - Icons_163: 1370003911
+      PC Computer - Warcraft 2 - Icons_164: 1075247337
+      PC Computer - Warcraft 2 - Icons_165: -579856010
+      PC Computer - Warcraft 2 - Icons_166: -1553523874
+      PC Computer - Warcraft 2 - Icons_167: 1429056171
+      PC Computer - Warcraft 2 - Icons_168: 1329561923
+      PC Computer - Warcraft 2 - Icons_169: 753227353
+      PC Computer - Warcraft 2 - Icons_17: -1449036134
+      PC Computer - Warcraft 2 - Icons_170: 917704089
+      PC Computer - Warcraft 2 - Icons_171: 255449771
+      PC Computer - Warcraft 2 - Icons_172: 2076546992
+      PC Computer - Warcraft 2 - Icons_173: 292850118
+      PC Computer - Warcraft 2 - Icons_174: -1688727238
+      PC Computer - Warcraft 2 - Icons_175: 1113348205
+      PC Computer - Warcraft 2 - Icons_176: 285687452
+      PC Computer - Warcraft 2 - Icons_177: 1913186698
+      PC Computer - Warcraft 2 - Icons_178: 498584623
+      PC Computer - Warcraft 2 - Icons_18: -379435055
+      PC Computer - Warcraft 2 - Icons_19: -537761455
+      PC Computer - Warcraft 2 - Icons_2: -1429449981
+      PC Computer - Warcraft 2 - Icons_20: 1001735753
+      PC Computer - Warcraft 2 - Icons_21: 1570825166
+      PC Computer - Warcraft 2 - Icons_22: -760658619
+      PC Computer - Warcraft 2 - Icons_23: -578686799
+      PC Computer - Warcraft 2 - Icons_24: 1482834829
+      PC Computer - Warcraft 2 - Icons_25: 1243530239
+      PC Computer - Warcraft 2 - Icons_26: -1592417385
+      PC Computer - Warcraft 2 - Icons_27: -517589443
+      PC Computer - Warcraft 2 - Icons_28: -1700606671
+      PC Computer - Warcraft 2 - Icons_29: -959079989
+      PC Computer - Warcraft 2 - Icons_3: 1240659087
+      PC Computer - Warcraft 2 - Icons_30: -958360656
+      PC Computer - Warcraft 2 - Icons_31: 1668668373
+      PC Computer - Warcraft 2 - Icons_32: 285375341
+      PC Computer - Warcraft 2 - Icons_33: -7119945
+      PC Computer - Warcraft 2 - Icons_34: 2121753493
+      PC Computer - Warcraft 2 - Icons_35: 1256101547
+      PC Computer - Warcraft 2 - Icons_36: -788084822
+      PC Computer - Warcraft 2 - Icons_37: 2141700820
+      PC Computer - Warcraft 2 - Icons_38: 1989145393
+      PC Computer - Warcraft 2 - Icons_39: -1703280725
+      PC Computer - Warcraft 2 - Icons_4: 844959946
+      PC Computer - Warcraft 2 - Icons_40: 1782652839
+      PC Computer - Warcraft 2 - Icons_41: 228615774
+      PC Computer - Warcraft 2 - Icons_42: 1243577400
+      PC Computer - Warcraft 2 - Icons_43: -387968207
+      PC Computer - Warcraft 2 - Icons_44: -1583215158
+      PC Computer - Warcraft 2 - Icons_45: -1803137822
+      PC Computer - Warcraft 2 - Icons_46: 1159092028
+      PC Computer - Warcraft 2 - Icons_47: 1097294885
+      PC Computer - Warcraft 2 - Icons_48: -693234344
+      PC Computer - Warcraft 2 - Icons_49: -184669208
+      PC Computer - Warcraft 2 - Icons_5: 1710879347
+      PC Computer - Warcraft 2 - Icons_50: -736247021
+      PC Computer - Warcraft 2 - Icons_51: 377728568
+      PC Computer - Warcraft 2 - Icons_52: -1968488116
+      PC Computer - Warcraft 2 - Icons_53: 1261095330
+      PC Computer - Warcraft 2 - Icons_54: 1417322774
+      PC Computer - Warcraft 2 - Icons_55: -847038946
+      PC Computer - Warcraft 2 - Icons_56: -1421917374
+      PC Computer - Warcraft 2 - Icons_57: -1497353542
+      PC Computer - Warcraft 2 - Icons_58: 688539923
+      PC Computer - Warcraft 2 - Icons_59: 700075059
+      PC Computer - Warcraft 2 - Icons_6: -498436219
+      PC Computer - Warcraft 2 - Icons_60: 1602023508
+      PC Computer - Warcraft 2 - Icons_61: -120360298
+      PC Computer - Warcraft 2 - Icons_62: 2107523353
+      PC Computer - Warcraft 2 - Icons_63: 443621606
+      PC Computer - Warcraft 2 - Icons_64: -479828695
+      PC Computer - Warcraft 2 - Icons_65: -143137887
+      PC Computer - Warcraft 2 - Icons_66: -752760086
+      PC Computer - Warcraft 2 - Icons_67: -569838945
+      PC Computer - Warcraft 2 - Icons_68: 1665754610
+      PC Computer - Warcraft 2 - Icons_69: -19497431
+      PC Computer - Warcraft 2 - Icons_7: 539153796
+      PC Computer - Warcraft 2 - Icons_70: -1262310082
+      PC Computer - Warcraft 2 - Icons_71: -1636578090
+      PC Computer - Warcraft 2 - Icons_72: -249386197
+      PC Computer - Warcraft 2 - Icons_73: 1150553057
+      PC Computer - Warcraft 2 - Icons_74: -1866484196
+      PC Computer - Warcraft 2 - Icons_75: -1581989982
+      PC Computer - Warcraft 2 - Icons_76: 494580968
+      PC Computer - Warcraft 2 - Icons_77: 298805673
+      PC Computer - Warcraft 2 - Icons_78: 1510380686
+      PC Computer - Warcraft 2 - Icons_79: 1474876066
+      PC Computer - Warcraft 2 - Icons_8: 338459278
+      PC Computer - Warcraft 2 - Icons_80: -939336341
+      PC Computer - Warcraft 2 - Icons_81: 420315613
+      PC Computer - Warcraft 2 - Icons_82: -619785743
+      PC Computer - Warcraft 2 - Icons_83: -1584042179
+      PC Computer - Warcraft 2 - Icons_84: 1100336383
+      PC Computer - Warcraft 2 - Icons_85: -1074429002
+      PC Computer - Warcraft 2 - Icons_86: 884918460
+      PC Computer - Warcraft 2 - Icons_87: -725881659
+      PC Computer - Warcraft 2 - Icons_88: 1016701574
+      PC Computer - Warcraft 2 - Icons_89: 1683638730
+      PC Computer - Warcraft 2 - Icons_9: -1023665203
+      PC Computer - Warcraft 2 - Icons_90: -56297024
+      PC Computer - Warcraft 2 - Icons_91: 1362137213
+      PC Computer - Warcraft 2 - Icons_92: -1471985862
+      PC Computer - Warcraft 2 - Icons_93: 172010686
+      PC Computer - Warcraft 2 - Icons_94: 2137009096
+      PC Computer - Warcraft 2 - Icons_95: -887996087
+      PC Computer - Warcraft 2 - Icons_96: -1749671611
+      PC Computer - Warcraft 2 - Icons_97: 1451750170
+      PC Computer - Warcraft 2 - Icons_98: -615369182
+      PC Computer - Warcraft 2 - Icons_99: -1669903760
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
