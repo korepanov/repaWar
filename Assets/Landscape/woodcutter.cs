@@ -16,6 +16,7 @@ public class WoodcutterClass : MonoBehaviour
     public GameObject WoodcutterDownRight;
     public GameObject HighlightPattern;
     public GameObject peasantLarge;
+    public GameObject mainBase;
     public string ObjName; 
     private GameObject skin;
 

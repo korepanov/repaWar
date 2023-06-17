@@ -19,6 +19,8 @@ public class Landscape : MonoBehaviour
 
     private float xMove = 0;
     private float yMove = 0;
+    float panelMaxY = 200f;
+    private float iconSize = 2f;
  
     List<List<int>> noise_grid = new List<List<int>>();
     List<List<GameObject>> tile_grid = new List<List<GameObject>>();
@@ -42,6 +44,7 @@ public class Landscape : MonoBehaviour
 
     void InitMenu(){
          woodcutter.peasantLarge.SetActive(false); 
+         woodcutter.mainBase.SetActive(false); 
     }
 
     void Update(){
@@ -49,15 +52,36 @@ public class Landscape : MonoBehaviour
         if (Input.GetMouseButtonDown(0)){
             
             Vector3 pos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 mainBaseLargePos = woodcutter.mainBase.transform.position;
 
             if (pos.x - 1 < woodcutter.GetCoord().x && woodcutter.GetCoord().x < pos.x + 1 && pos.y - 1 < woodcutter.GetCoord().y && woodcutter.GetCoord().y < pos.y + 1){
-                MakeHighlight(woodcutter);     
+                if (!(Input.mousePosition.y < panelMaxY)){
+                    MakeHighlight(woodcutter);     
+                }
             }else{
-                DestroyHighlight(woodcutter);
+                var outline = woodcutter.mainBase.GetComponent<UnityEngine.UI.Outline>();
+                if ((!(Input.mousePosition.y < panelMaxY)) && (null == outline)){
+                    DestroyHighlight(woodcutter);
+                }
             }
+
+           
+            if ((woodcutter.mainBase.activeSelf) && (pos.x - iconSize / 2 < mainBaseLargePos.x && mainBaseLargePos.x < pos.x + 
+                    iconSize / 2 && pos.y - iconSize / 2 < mainBaseLargePos.y && mainBaseLargePos.y < pos.y + iconSize / 2)){
+                var outline = woodcutter.mainBase.GetComponent<UnityEngine.UI.Outline>();
+                if (null == outline){
+                    outline = woodcutter.mainBase.AddComponent<UnityEngine.UI.Outline>();
+                    outline.useGraphicAlpha = true;
+                    outline.effectColor = new Color(0f, 255f, 0f, 128f);
+                    outline.effectDistance = new Vector2(5, -5);
+                }else{
+                    Destroy(outline); 
+                }
+            }
+           
         }
 
-        if (Input.GetMouseButtonDown(1) && HasHighlight(woodcutter)){
+        if (Input.GetMouseButtonDown(1) && HasHighlight(woodcutter) && (!(Input.mousePosition.y < panelMaxY))){
             Vector3 pos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
 
             toMove = true;
@@ -430,6 +454,7 @@ public class Landscape : MonoBehaviour
     private void MakeHighlight(WoodcutterClass woodcutter){
         
         woodcutter.peasantLarge.SetActive(true); 
+        woodcutter.mainBase.SetActive(true); 
 
     	float x;
         float y; 
@@ -458,6 +483,7 @@ public class Landscape : MonoBehaviour
 
     private void DestroyHighlight(WoodcutterClass woodcutter){
         woodcutter.peasantLarge.SetActive(false); 
+        woodcutter.mainBase.SetActive(false); 
 
         GameObject highlight = GameObject.Find(woodcutter.ObjName + "Highlight");
         
