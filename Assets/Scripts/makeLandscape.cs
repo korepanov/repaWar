@@ -12,16 +12,19 @@ public class Landscape : MonoBehaviour
     public GameObject grass;
     public GameObject tree;
     public WoodcutterClass woodcutter;
+    public BuildingClass building; 
  
     int map_width = 160;
     int map_height = 160;
     private bool toMove = false;
+    private bool toBuild = false; 
 
     private float xMove = 0;
     private float yMove = 0;
     float panelMaxY = 200f;
     private float iconSize = 2f;
  
+    List<BuildingClass> buildings = new List<BuildingClass>(); 
     List<List<int>> noise_grid = new List<List<int>>();
     List<List<GameObject>> tile_grid = new List<List<GameObject>>();
  
@@ -48,7 +51,7 @@ public class Landscape : MonoBehaviour
     }
 
     void Update(){
-        
+
         if (Input.GetMouseButtonDown(0)){
             
             Vector3 pos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
@@ -63,6 +66,16 @@ public class Landscape : MonoBehaviour
                 if ((!(Input.mousePosition.y < panelMaxY)) && (null == outline)){
                     DestroyHighlight(woodcutter);
                 }
+                if (!(Input.mousePosition.y < panelMaxY) && (null != outline)){
+                    
+                    if (WoodcutterClass.Buildings.undefined != woodcutter.selectedBuilding){
+                        Vector3 posToBuild = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+                        toMove = true;
+                        xMove = posToBuild.x;
+                        yMove = posToBuild.y; 
+                        toBuild = true; 
+                    }
+                }
             }
 
            
@@ -74,8 +87,10 @@ public class Landscape : MonoBehaviour
                     outline.useGraphicAlpha = true;
                     outline.effectColor = new Color(0f, 255f, 0f, 128f);
                     outline.effectDistance = new Vector2(5, -5);
+                    woodcutter.selectedBuilding = WoodcutterClass.Buildings.mainBase;
                 }else{
                     Destroy(outline); 
+                    woodcutter.selectedBuilding = WoodcutterClass.Buildings.undefined;
                 }
             }
            
@@ -91,6 +106,18 @@ public class Landscape : MonoBehaviour
 
         if (toMove){
             Move(woodcutter, xMove, yMove);
+        }
+
+        if ((!toMove) && (toBuild)){
+            
+            if (null == GameObject.Find(woodcutter.ObjName)){
+                Build(woodcutter);
+                woodcutter.selectedBuilding = WoodcutterClass.Buildings.undefined; 
+                toBuild = false; 
+            }
+            
+            DestroyHighlight(woodcutter);
+            DestroyWoodcutter(woodcutter);
         }
 
     }
@@ -195,6 +222,33 @@ public class Landscape : MonoBehaviour
             local_tile_group.transform.parent = gameObject.transform;
             local_tile_group.transform.localPosition = new Vector3(0, 0, 0);
             GameObject tile = Instantiate(woodcutter.WoodcutterPattern, local_tile_group.transform);
+
+        tile.name = string.Format("tile_x{0}_y{1}", x, y);
+        tile.transform.localPosition = new Vector3(x, y, 0);
+ 	
+    }
+
+    public void Build(WoodcutterClass woodcutter){
+
+        int x;
+        int y; 
+
+        x = (int)woodcutter.GetCoord().x + 1;
+        y = (int)woodcutter.GetCoord().y + 1;
+
+        building.ObjName = string.Format("tile_x{0}_y{1}", x + 1, y + 1); 
+        building.buildingType = woodcutter.selectedBuilding;
+
+        if (WoodcutterClass.Buildings.mainBase == woodcutter.selectedBuilding){
+            building.skin = woodcutter.mainBaseToBuild;
+        }
+
+        buildings.Add(building); 
+
+        GameObject local_tile_group = new GameObject(building.ObjName);
+            local_tile_group.transform.parent = gameObject.transform;
+            local_tile_group.transform.localPosition = new Vector3(0, 0, 0);
+            GameObject tile = Instantiate(building.skin, local_tile_group.transform);
 
         tile.name = string.Format("tile_x{0}_y{1}", x, y);
         tile.transform.localPosition = new Vector3(x, y, 0);
@@ -446,6 +500,7 @@ public class Landscape : MonoBehaviour
 
     public void DestroyWoodcutter(WoodcutterClass woodcutter){
         GameObject worker = GameObject.Find(woodcutter.ObjName);
+    
         if (null != worker){
             Destroy(worker); 
         }
@@ -480,6 +535,7 @@ public class Landscape : MonoBehaviour
         GameObject highlight = GameObject.Find(woodcutter.ObjName + "Highlight");
         return null != highlight; 
     }
+
 
     private void DestroyHighlight(WoodcutterClass woodcutter){
         woodcutter.peasantLarge.SetActive(false); 

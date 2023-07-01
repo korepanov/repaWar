@@ -17,11 +17,21 @@ public class WoodcutterClass : MonoBehaviour
     public GameObject HighlightPattern;
     public GameObject peasantLarge;
     public GameObject mainBase;
+    public GameObject mainBaseMap;
+    public GameObject mainBaseToBuild;
     public string ObjName; 
     private GameObject skin;
 
     private float WoodCutterX;
     private float WoodCutterY;
+
+    public enum Buildings{
+        undefined,
+        mainBase,
+        barracks 
+    }
+
+    public Buildings selectedBuilding = Buildings.undefined; 
 
     List<List<GameObject>> tile_grid = new List<List<GameObject>>();
 
