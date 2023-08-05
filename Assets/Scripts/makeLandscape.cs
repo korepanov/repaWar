@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -114,6 +115,7 @@ public class Landscape : MonoBehaviour
                 Build(woodcutter);
                 woodcutter.selectedBuilding = WoodcutterClass.Buildings.undefined; 
                 toBuild = false; 
+                woodcutter.Setup(-1, -1); 
             }
             
             DestroyHighlight(woodcutter);
@@ -306,196 +308,265 @@ public class Landscape : MonoBehaviour
     }
 
     public void MoveRight(WoodcutterClass woodcutter){
-
-        setPattern(woodcutter, woodcutter.WoodcutterRight); 
-
-        float x;
-        float y;
-
-        x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y;
-
-        GameObject tile = GameObject.Find(woodcutter.ObjName);
-
-        var delta = Time.deltaTime;
-
-        tile.transform.Translate(Vector3.right * 2 * delta);
-
-        
-        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
-        if (null != tile){
-            tile.transform.Translate(Vector3.right * 2 * delta);
+        if (woodcutter.GetCoord().x + 1 > map_width){
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+            return;
         }
-        woodcutter.Setup(x + 2 * delta, y); 
-        
+        var delta = Time.deltaTime;
+        if (0 == GetIdUsingPerlin((int)(Math.Floor(woodcutter.GetCoord().x + 1)), (int)woodcutter.GetCoord().y)){
+
+            setPattern(woodcutter, woodcutter.WoodcutterRight); 
+
+            float x;
+            float y;
+
+            x = woodcutter.GetCoord().x;
+            y = woodcutter.GetCoord().y;
+
+            GameObject tile = GameObject.Find(woodcutter.ObjName);
+
+            tile.transform.Translate(Vector3.right * 2 * delta);
+
+            
+            tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+            if (null != tile){
+                tile.transform.Translate(Vector3.right * 2 * delta);
+            }
+            woodcutter.Setup(x + 2 * delta, y); 
+        }else{
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+        }
     }
 
     public void MoveLeft(WoodcutterClass woodcutter){
-
-        setPattern(woodcutter, woodcutter.WoodcutterLeft); 
-
-        float x;
-        float y;
-
-        x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y;
-
-        GameObject tile = GameObject.Find(woodcutter.ObjName);
-
-        var delta = Time.deltaTime;
-
-        tile.transform.Translate(Vector3.left * 2 * delta);
-
-        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
-        if (null != tile){
-            tile.transform.Translate(Vector3.left * 2 * delta);
+         if (woodcutter.GetCoord().x - 1 < 0){
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+            return;
         }
-        woodcutter.Setup(x - 2 * delta, y);
+        var delta = Time.deltaTime;
+        if (0 == GetIdUsingPerlin((int)(Math.Ceiling(woodcutter.GetCoord().x - 1)), (int)woodcutter.GetCoord().y)){
+            setPattern(woodcutter, woodcutter.WoodcutterLeft); 
+
+            float x;
+            float y;
+
+            x = woodcutter.GetCoord().x;
+            y = woodcutter.GetCoord().y;
+
+            GameObject tile = GameObject.Find(woodcutter.ObjName);
+
+            tile.transform.Translate(Vector3.left * 2 * delta);
+
+            tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+            if (null != tile){
+                tile.transform.Translate(Vector3.left * 2 * delta);
+            }
+            woodcutter.Setup(x - 2 * delta, y);
+        }else{
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+        }
     }
 
     public void MoveUp(WoodcutterClass woodcutter){
-
-        setPattern(woodcutter, woodcutter.WoodcutterUp); 
-
-        float x;
-        float y;
-
-        x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y;
-
-        GameObject tile = GameObject.Find(woodcutter.ObjName);
-
-        var delta = Time.deltaTime;
-
-        tile.transform.Translate(Vector3.up * 2 * delta);
-
-        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
-        if (null != tile){
-            tile.transform.Translate(Vector3.up * 2 * delta);
+         if (woodcutter.GetCoord().y + 1 > map_height){
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+            return;
         }
+        var delta = Time.deltaTime;
+        if (0 == GetIdUsingPerlin((int)woodcutter.GetCoord().x, (int)(Math.Floor(woodcutter.GetCoord().y + 1)))){
+            setPattern(woodcutter, woodcutter.WoodcutterUp); 
 
-        woodcutter.Setup(x, y + 2 * delta);
+            float x;
+            float y;
+
+            x = woodcutter.GetCoord().x;
+            y = woodcutter.GetCoord().y;
+
+            GameObject tile = GameObject.Find(woodcutter.ObjName);
+
+            tile.transform.Translate(Vector3.up * 2 * delta);
+
+            tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+            if (null != tile){
+                tile.transform.Translate(Vector3.up * 2 * delta);
+            }
+
+            woodcutter.Setup(x, y + 2 * delta);
+        }else{
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern);  
+        }
     }
 
     public void MoveDown(WoodcutterClass woodcutter){
-
-       setPattern(woodcutter, woodcutter.WoodcutterDown); 
-
-        float x;
-        float y;
-
-        x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y;
-
-        GameObject tile = GameObject.Find(woodcutter.ObjName);
-
-        var delta = Time.deltaTime;
-
-        tile.transform.Translate(Vector3.down * 2 * delta);
-
-        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
-
-        if (null != tile){
-            tile.transform.Translate(Vector3.down * 2 * delta);
+         if (woodcutter.GetCoord().y - 1 < 0){
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+            return;
         }
+        var delta = Time.deltaTime;
+        if (0 == GetIdUsingPerlin((int)woodcutter.GetCoord().x, (int)(Math.Ceiling(woodcutter.GetCoord().y - 1)))){
+            setPattern(woodcutter, woodcutter.WoodcutterDown); 
 
-        woodcutter.Setup(x, y - 2 * delta);
+            float x;
+            float y;
+
+            x = woodcutter.GetCoord().x;
+            y = woodcutter.GetCoord().y;
+
+            GameObject tile = GameObject.Find(woodcutter.ObjName);
+
+            tile.transform.Translate(Vector3.down * 2 * delta);
+
+            tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+
+            if (null != tile){
+                tile.transform.Translate(Vector3.down * 2 * delta);
+            }
+
+            woodcutter.Setup(x, y - 2 * delta);
+        }else{
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+        }
     }
 
     public void MoveUpLeft(WoodcutterClass woodcutter){
-
-        setPattern(woodcutter, woodcutter.WoodcutterUpLeft); 
-
-        float x;
-        float y;
-
-        x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y;
-
-        GameObject tile = GameObject.Find(woodcutter.ObjName);
-
+        if ((woodcutter.GetCoord().x - 1 < 0) || (woodcutter.GetCoord().y + 1 > map_height)){
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+            return;
+        }
         var delta = Time.deltaTime;
 
-        tile.transform.Translate(new Vector3(-1, 1, 0) * 2 * delta);
+        if (0 == GetIdUsingPerlin((int)(Math.Ceiling(woodcutter.GetCoord().x - 1)), (int)(Math.Floor(woodcutter.GetCoord().y + 1)))){
+            setPattern(woodcutter, woodcutter.WoodcutterUpLeft); 
 
-        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
-        if (null != tile){
+            float x;
+            float y;
+
+            x = woodcutter.GetCoord().x;
+            y = woodcutter.GetCoord().y;
+
+            GameObject tile = GameObject.Find(woodcutter.ObjName);
+
             tile.transform.Translate(new Vector3(-1, 1, 0) * 2 * delta);
+
+            tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+            if (null != tile){
+                tile.transform.Translate(new Vector3(-1, 1, 0) * 2 * delta);
+            }
+            woodcutter.Setup(x - 2 * delta, y + 2 * delta);
+        }else{
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
         }
-        woodcutter.Setup(x - 2 * delta, y + 2 * delta);
     }
 
     public void MoveUpRight(WoodcutterClass woodcutter){
-
-        setPattern(woodcutter, woodcutter.WoodcutterUpRight); 
-
-        float x;
-        float y;
-
-        x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y;
-
-        GameObject tile = GameObject.Find(woodcutter.ObjName);
-
-        var delta = Time.deltaTime;
-
-        tile.transform.Translate(new Vector3(1, 1, 0) * 2 * delta);
-
-        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
-        if (null != tile){
-            tile.transform.Translate(new Vector3(1, 1, 0) * 2 * delta);
+         if ((woodcutter.GetCoord().x + 1 > map_width) || (woodcutter.GetCoord().y + 1 > map_height)){
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+            return;
         }
-        woodcutter.Setup(x + 2 * delta, y + 2 * delta); 
+          var delta = Time.deltaTime;
+        if (0 == GetIdUsingPerlin((int)(Math.Floor(woodcutter.GetCoord().x + 1)), (int)(Math.Floor(woodcutter.GetCoord().y + 1)))){
+            setPattern(woodcutter, woodcutter.WoodcutterUpRight); 
+
+            float x;
+            float y;
+
+            x = woodcutter.GetCoord().x;
+            y = woodcutter.GetCoord().y;
+
+            GameObject tile = GameObject.Find(woodcutter.ObjName);
+
+            tile.transform.Translate(new Vector3(1, 1, 0) * 2 * delta);
+
+            tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+            if (null != tile){
+                tile.transform.Translate(new Vector3(1, 1, 0) * 2 * delta);
+            }
+            woodcutter.Setup(x + 2 * delta, y + 2 * delta); 
+        }else{
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+        }
     }
 
     public void MoveDownLeft(WoodcutterClass woodcutter){
-
-        setPattern(woodcutter, woodcutter.WoodcutterDownLeft); 
-
-        float x;
-        float y;
-
-        x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y;
-
-        GameObject tile = GameObject.Find(woodcutter.ObjName);
-
-        var delta = Time.deltaTime;
-
-        tile.transform.Translate(new Vector3(-1, -1, 0) * 2 * delta);
-
-        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
-
-        if (null != tile){
-            tile.transform.Translate(new Vector3(-1, -1, 0) * 2 * delta);
+         if ((woodcutter.GetCoord().x - 1 < 0) || (woodcutter.GetCoord().y - 1 < 0)){
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+            return;
         }
 
-        woodcutter.Setup(x - 2 * delta, y - 2 * delta); 
+         var delta = Time.deltaTime;
+         
+         if (0 == GetIdUsingPerlin((int)(Math.Ceiling(woodcutter.GetCoord().x - 1)), (int)(Math.Ceiling(woodcutter.GetCoord().y - 1)))){
+            setPattern(woodcutter, woodcutter.WoodcutterDownLeft); 
+
+            float x;
+            float y;
+
+            x = woodcutter.GetCoord().x;
+            y = woodcutter.GetCoord().y;
+
+            GameObject tile = GameObject.Find(woodcutter.ObjName);
+
+            tile.transform.Translate(new Vector3(-1, -1, 0) * 2 * delta);
+
+            tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+
+            if (null != tile){
+                tile.transform.Translate(new Vector3(-1, -1, 0) * 2 * delta);
+            }
+
+            woodcutter.Setup(x - 2 * delta, y - 2 * delta); 
+         }else{
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+         }
     }
 
     public void MoveDownRight(WoodcutterClass woodcutter){
-
-       setPattern(woodcutter, woodcutter.WoodcutterDownRight); 
-
-        float x;
-        float y;
-
-        x = woodcutter.GetCoord().x;
-        y = woodcutter.GetCoord().y;
-
-        GameObject tile = GameObject.Find(woodcutter.ObjName);
-
-        var delta = Time.deltaTime;
-
-        tile.transform.Translate(new Vector3(1, -1, 0) * 2 * delta);
-
-        tile = GameObject.Find(woodcutter.ObjName + "Highlight");
-
-        if (null != tile){
-            tile.transform.Translate(new Vector3(1, -1, 0) * 2 * delta);
+         if ((woodcutter.GetCoord().x + 1 > map_width) || (woodcutter.GetCoord().y - 1 < 0)){
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+            return;
         }
+       var delta = Time.deltaTime;
+       if (0 == GetIdUsingPerlin((int)(Math.Floor(woodcutter.GetCoord().x + 1)), (int)(Math.Ceiling(woodcutter.GetCoord().y - 1)))){
+    
+        setPattern(woodcutter, woodcutter.WoodcutterDownRight); 
 
-        woodcutter.Setup(x + 2 * delta, y - 2 * delta);  
+            float x;
+            float y;
+
+            x = woodcutter.GetCoord().x;
+            y = woodcutter.GetCoord().y;
+
+            GameObject tile = GameObject.Find(woodcutter.ObjName);
+
+
+            tile.transform.Translate(new Vector3(1, -1, 0) * 2 * delta);
+
+            tile = GameObject.Find(woodcutter.ObjName + "Highlight");
+
+            if (null != tile){
+                tile.transform.Translate(new Vector3(1, -1, 0) * 2 * delta);
+            }
+
+            woodcutter.Setup(x + 2 * delta, y - 2 * delta); 
+       }else{
+            toMove = false; 
+            setPattern(woodcutter, woodcutter.WoodcutterPattern); 
+       }
     }
 
     public void DestroyWoodcutter(WoodcutterClass woodcutter){
